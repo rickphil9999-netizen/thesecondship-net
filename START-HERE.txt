@@ -1,0 +1,103 @@
+THE SECOND SHIP — put this site on thesecondship.net
+====================================================
+
+This folder is the new author site. WordPress stays live until the last
+step, so nothing breaks while you work.
+
+You will use two free accounts (GitHub and Vercel) plus your existing
+GoDaddy login. Domain and email stay at GoDaddy. Only the website moves.
+
+
+PART 1.  Put the files on GitHub
+--------------------------------
+1. Go to https://github.com and sign in (or create a free account).
+2. Click the + in the top right → New repository.
+3. Repository name:  thesecondship-net
+4. Leave it Public. Do NOT check "Add a README".
+5. Click Create repository.
+6. On the next page, click "uploading an existing file".
+7. On your computer, unzip this package if you have not already.
+   Open the folder so you can see package.json (not a folder above it).
+8. Select everything inside that folder and drag it onto the GitHub page.
+   You should see package.json, src, public, vercel.json, START-HERE.txt,
+   and two files that start with a dot: .gitignore and .nvmrc.
+   (On a Mac, press Command-Shift-Period in the folder if those two
+   are hidden, then include them.)
+9. Scroll down. Click Commit changes.
+
+
+PART 2.  Publish it on Vercel
+-----------------------------
+1. Go to https://vercel.com and click Sign Up → Continue with GitHub.
+   Approve access when GitHub asks.
+2. Click Add New… → Project.
+3. Next to thesecondship-net, click Import.
+4. Leave every setting as-is. Click Deploy.
+5. Wait one or two minutes. When it says Congratulations, click the
+   thumbnail. You will get a temporary address like:
+
+      https://thesecondship-net.vercel.app
+
+   That is the new site. thesecondship.net is still WordPress until
+   Part 3. Look around. If something is wrong, stop and write me
+   before touching GoDaddy.
+
+
+PART 3.  Point thesecondship.net at the new site
+------------------------------------------------
+Do this only after the Vercel address looks right.
+
+A. In Vercel
+   1. Open the project → Settings → Domains.
+   2. Add:  thesecondship.net
+   3. Also add:  www.thesecondship.net
+   4. Vercel will show two DNS records. Copy them. They usually look like:
+
+        Name   Type    Value
+        @      A       76.76.21.21
+        www    CNAME   cname.vercel-dns.com
+
+      Use whatever Vercel displays if it differs.
+   5. If Vercel offers to "change nameservers", decline. Changing
+      nameservers would break GoDaddy email. Use the A / CNAME method.
+
+B. In GoDaddy
+   1. Sign in at https://dcc.godaddy.com/control/portfolio
+   2. Click thesecondship.net → DNS.
+   3. Find the A record whose name is @ (or blank) and currently
+      points to 160.153.0.49. That is WordPress. Edit it to the
+      A value Vercel gave you (usually 76.76.21.21).
+   4. Find the CNAME whose name is www. Edit its value to the
+      CNAME Vercel gave you (usually cname.vercel-dns.com).
+   5. Do NOT touch MX records (mailstore1 / smtp.secureserver.net).
+      Those are email.
+   6. Do NOT delete TXT records.
+   7. Save.
+
+C. Wait
+   The switch is often a few minutes; sometimes a couple of hours.
+   Visit https://thesecondship.net and https://www.thesecondship.net
+   Both should show the new site with a padlock in the address bar.
+
+   If you still see WordPress, wait, then try a private/incognito
+   window (old pages can be cached).
+
+
+PART 4.  After it has been live a few days
+------------------------------------------
+In GoDaddy, cancel Web Hosting / WordPress and SiteLock if you pay
+for them. Do NOT cancel the domain. Keep the domain on auto-renew.
+
+Leave rhoagenda.me alone. It is a separate site.
+
+
+If you need to undo
+-------------------
+In GoDaddy DNS, set the A record for @ back to 160.153.0.49 and
+set www CNAME back to thesecondship.net. WordPress will return.
+
+
+Need help?
+----------
+Reply in this chat with a screenshot of the Vercel Domains page or
+the GoDaddy DNS list before you save, and I will check the records.
