@@ -1,0 +1,91 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Cormorant Garamond", ui-serif, Georgia, "Times New Roman",
+    serif;
+
+  --color-background: #0c0b0a;
+  --color-foreground: #f3eee6;
+  --color-card: #141210;
+  --color-card-foreground: #f3eee6;
+  --color-popover: #161412;
+  --color-popover-foreground: #f3eee6;
+  --color-primary: #e8e0d4;
+  --color-primary-foreground: #0c0b0a;
+  --color-secondary: #1c1916;
+  --color-secondary-foreground: #f3eee6;
+  --color-muted: #1a1715;
+  --color-muted-foreground: #9a9287;
+  --color-accent: #221e1a;
+  --color-accent-foreground: #f3eee6;
+  --color-destructive: #9a4338;
+  --color-destructive-foreground: #f3eee6;
+  --color-border: #2c2823;
+  --color-input: #2c2823;
+  --color-ring: #cfc6b8;
+  --color-ember: #9a4338;
+  --color-paper: #d8d0c4;
+
+  --radius: 0.75rem;
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+}
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: var(--color-background);
+    color: var(--color-foreground);
+  }
+
+  body {
+    min-height: 100vh;
+    background: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    text-wrap: balance;
+    letter-spacing: -0.03em;
+    font-weight: 600;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  ::selection {
+    background: color-mix(in oklab, var(--color-paper) 35%, transparent);
+    color: var(--color-foreground);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
