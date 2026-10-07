@@ -161,9 +161,9 @@ function Home() {
       <section className="border-b border-border">
         <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
           <div className="flex items-end justify-between gap-4">
-            <h2 className="font-display text-4xl">From the journal</h2>
+            <h2 className="font-display text-4xl">From the blog</h2>
             <Button asChild variant="ghost">
-              <Link to="/journal">
+              <Link to="/blog">
                 All posts <ArrowRight />
               </Link>
             </Button>
@@ -172,7 +172,7 @@ function Home() {
             {NEWS.map((item) => (
               <Link
                 key={item.slug}
-                to="/journal/$slug"
+                to="/blog/$slug"
                 params={{ slug: item.slug }}
                 className="flex flex-col gap-2 rounded-xl border border-border bg-card p-5 hover:bg-muted"
               >

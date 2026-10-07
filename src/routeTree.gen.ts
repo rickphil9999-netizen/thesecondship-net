@@ -17,10 +17,10 @@ import { Route as ProducersRouteImport } from './routes/producers'
 import { Route as ReadersRouteImport } from './routes/readers'
 import { Route as ReadingOrderRouteImport } from './routes/reading-order'
 import { Route as TrailersRouteImport } from './routes/trailers'
+import { Route as BlogIndexRouteImport } from './routes/blog.index'
+import { Route as BlogSlugRouteImport } from './routes/blog.$slug'
 import { Route as BooksIndexRouteImport } from './routes/books.index'
 import { Route as BooksSlugRouteImport } from './routes/books.$slug'
-import { Route as JournalIndexRouteImport } from './routes/journal.index'
-import { Route as JournalSlugRouteImport } from './routes/journal.$slug'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -62,6 +62,16 @@ const TrailersRoute = TrailersRouteImport.update({
   path: '/trailers',
   getParentRoute: () => rootRouteImport,
 } as any)
+const BlogIndexRoute = BlogIndexRouteImport.update({
+  id: '/blog/',
+  path: '/blog/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BlogSlugRoute = BlogSlugRouteImport.update({
+  id: '/blog/$slug',
+  path: '/blog/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const BooksIndexRoute = BooksIndexRouteImport.update({
   id: '/',
   path: '/',
@@ -71,16 +81,6 @@ const BooksSlugRoute = BooksSlugRouteImport.update({
   id: '/$slug',
   path: '/$slug',
   getParentRoute: () => BooksRoute,
-} as any)
-const JournalIndexRoute = JournalIndexRouteImport.update({
-  id: '/journal/',
-  path: '/journal/',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const JournalSlugRoute = JournalSlugRouteImport.update({
-  id: '/journal/$slug',
-  path: '/journal/$slug',
-  getParentRoute: () => rootRouteImport,
 } as any)
 
 export interface FileRoutesByFullPath {
@@ -92,10 +92,10 @@ export interface FileRoutesByFullPath {
   '/readers': typeof ReadersRoute
   '/reading-order': typeof ReadingOrderRoute
   '/trailers': typeof TrailersRoute
+  '/blog/$slug': typeof BlogSlugRoute
   '/books/$slug': typeof BooksSlugRoute
-  '/journal/$slug': typeof JournalSlugRoute
+  '/blog/': typeof BlogIndexRoute
   '/books/': typeof BooksIndexRoute
-  '/journal/': typeof JournalIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -105,10 +105,10 @@ export interface FileRoutesByTo {
   '/readers': typeof ReadersRoute
   '/reading-order': typeof ReadingOrderRoute
   '/trailers': typeof TrailersRoute
+  '/blog/$slug': typeof BlogSlugRoute
   '/books/$slug': typeof BooksSlugRoute
-  '/journal/$slug': typeof JournalSlugRoute
+  '/blog': typeof BlogIndexRoute
   '/books': typeof BooksIndexRoute
-  '/journal': typeof JournalIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -120,10 +120,10 @@ export interface FileRoutesById {
   '/readers': typeof ReadersRoute
   '/reading-order': typeof ReadingOrderRoute
   '/trailers': typeof TrailersRoute
+  '/blog/$slug': typeof BlogSlugRoute
   '/books/$slug': typeof BooksSlugRoute
-  '/journal/$slug': typeof JournalSlugRoute
+  '/blog/': typeof BlogIndexRoute
   '/books/': typeof BooksIndexRoute
-  '/journal/': typeof JournalIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -136,10 +136,10 @@ export interface FileRouteTypes {
     | '/readers'
     | '/reading-order'
     | '/trailers'
+    | '/blog/$slug'
     | '/books/$slug'
-    | '/journal/$slug'
+    | '/blog/'
     | '/books/'
-    | '/journal/'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -149,10 +149,10 @@ export interface FileRouteTypes {
     | '/readers'
     | '/reading-order'
     | '/trailers'
+    | '/blog/$slug'
     | '/books/$slug'
-    | '/journal/$slug'
+    | '/blog'
     | '/books'
-    | '/journal'
   id:
     | '__root__'
     | '/'
@@ -163,10 +163,10 @@ export interface FileRouteTypes {
     | '/readers'
     | '/reading-order'
     | '/trailers'
+    | '/blog/$slug'
     | '/books/$slug'
-    | '/journal/$slug'
+    | '/blog/'
     | '/books/'
-    | '/journal/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -178,8 +178,8 @@ export interface RootRouteChildren {
   ReadersRoute: typeof ReadersRoute
   ReadingOrderRoute: typeof ReadingOrderRoute
   TrailersRoute: typeof TrailersRoute
-  JournalSlugRoute: typeof JournalSlugRoute
-  JournalIndexRoute: typeof JournalIndexRoute
+  BlogSlugRoute: typeof BlogSlugRoute
+  BlogIndexRoute: typeof BlogIndexRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -240,6 +240,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof TrailersRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/blog/': {
+      id: '/blog/'
+      path: '/blog'
+      fullPath: '/blog/'
+      preLoaderRoute: typeof BlogIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/blog/$slug': {
+      id: '/blog/$slug'
+      path: '/blog/$slug'
+      fullPath: '/blog/$slug'
+      preLoaderRoute: typeof BlogSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/books/': {
       id: '/books/'
       path: '/'
@@ -253,20 +267,6 @@ declare module '@tanstack/react-router' {
       fullPath: '/books/$slug'
       preLoaderRoute: typeof BooksSlugRouteImport
       parentRoute: typeof BooksRoute
-    }
-    '/journal/': {
-      id: '/journal/'
-      path: '/journal'
-      fullPath: '/journal/'
-      preLoaderRoute: typeof JournalIndexRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/journal/$slug': {
-      id: '/journal/$slug'
-      path: '/journal/$slug'
-      fullPath: '/journal/$slug'
-      preLoaderRoute: typeof JournalSlugRouteImport
-      parentRoute: typeof rootRouteImport
     }
   }
 }
@@ -292,8 +292,8 @@ const rootRouteChildren: RootRouteChildren = {
   ReadersRoute: ReadersRoute,
   ReadingOrderRoute: ReadingOrderRoute,
   TrailersRoute: TrailersRoute,
-  JournalSlugRoute: JournalSlugRoute,
-  JournalIndexRoute: JournalIndexRoute,
+  BlogSlugRoute: BlogSlugRoute,
+  BlogIndexRoute: BlogIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

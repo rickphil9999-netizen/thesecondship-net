@@ -1,7 +1,7 @@
 [
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/firstentry",
+  "to": "/blog/firstentry",
   "query": {
    "key": "p",
    "value": "1"
@@ -9,7 +9,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/about-the-rho-agenda",
+  "to": "/blog/about-the-rho-agenda",
   "query": {
    "key": "page_id",
    "value": "2"
@@ -17,7 +17,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/interview-update",
+  "to": "/blog/interview-update",
   "query": {
    "key": "p",
    "value": "8"
@@ -25,7 +25,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/interview-on-paranexus-universe",
+  "to": "/blog/interview-on-paranexus-universe",
   "query": {
    "key": "p",
    "value": "10"
@@ -33,7 +33,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/the-characters-in-the-rho-agenda",
+  "to": "/blog/the-characters-in-the-rho-agenda",
   "query": {
    "key": "p",
    "value": "21"
@@ -41,7 +41,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/getting-ready-for-roswell",
+  "to": "/blog/getting-ready-for-roswell",
   "query": {
    "key": "p",
    "value": "27"
@@ -49,7 +49,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/richard-phillips-on-coast-to-coast-am",
+  "to": "/blog/richard-phillips-on-coast-to-coast-am",
   "query": {
    "key": "p",
    "value": "29"
@@ -57,7 +57,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/west-point-30th-reunion",
+  "to": "/blog/west-point-30th-reunion",
   "query": {
    "key": "p",
    "value": "36"
@@ -65,7 +65,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/wormhole-update",
+  "to": "/blog/wormhole-update",
   "query": {
    "key": "p",
    "value": "42"
@@ -73,7 +73,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/the-dark-side",
+  "to": "/blog/the-dark-side",
   "query": {
    "key": "p",
    "value": "47"
@@ -81,7 +81,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/new-publisher",
+  "to": "/blog/new-publisher",
   "query": {
    "key": "p",
    "value": "57"
@@ -89,7 +89,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/publisher-update",
+  "to": "/blog/publisher-update",
   "query": {
    "key": "p",
    "value": "61"
@@ -97,7 +97,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/contract-negotiation-status-update",
+  "to": "/blog/contract-negotiation-status-update",
   "query": {
    "key": "p",
    "value": "65"
@@ -105,7 +105,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/yet-another-wormhole-publishing-update",
+  "to": "/blog/yet-another-wormhole-publishing-update",
   "query": {
    "key": "p",
    "value": "70"
@@ -113,7 +113,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/october-16-news",
+  "to": "/blog/october-16-news",
   "query": {
    "key": "p",
    "value": "73"
@@ -121,7 +121,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/early-reader-feedback-program",
+  "to": "/blog/early-reader-feedback-program",
   "query": {
    "key": "p",
    "value": "76"
@@ -129,7 +129,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/wormhole-update-november-26-2011",
+  "to": "/blog/wormhole-update-november-26-2011",
   "query": {
    "key": "p",
    "value": "89"
@@ -137,7 +137,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/happy-holidays",
+  "to": "/blog/happy-holidays",
   "query": {
    "key": "p",
    "value": "93"
@@ -145,7 +145,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/12-feb-2012-update",
+  "to": "/blog/12-feb-2012-update",
   "query": {
    "key": "p",
    "value": "98"
@@ -153,7 +153,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/early-readers",
+  "to": "/blog/early-readers",
   "query": {
    "key": "p",
    "value": "103"
@@ -161,7 +161,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/march-9-2012-update",
+  "to": "/blog/march-9-2012-update",
   "query": {
    "key": "p",
    "value": "106"
@@ -169,7 +169,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/last-day-for-early-reader-feedback-program-for-wormhole",
+  "to": "/blog/last-day-for-early-reader-feedback-program-for-wormhole",
   "query": {
    "key": "p",
    "value": "109"
@@ -177,7 +177,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/47-north-contract-signed",
+  "to": "/blog/47-north-contract-signed",
   "query": {
    "key": "p",
    "value": "113"
@@ -185,7 +185,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/now-with-47-north",
+  "to": "/blog/now-with-47-north",
   "query": {
    "key": "p",
    "value": "118"
@@ -193,7 +193,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/an-independent-authors-path-to-publishing-success-on-the-kindle",
+  "to": "/blog/an-independent-authors-path-to-publishing-success-on-the-kindle",
   "query": {
    "key": "p",
    "value": "122"
@@ -201,7 +201,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/end-of-early-reader-feedback-program-for-once-dead",
+  "to": "/blog/end-of-early-reader-feedback-program-for-once-dead",
   "query": {
    "key": "p",
    "value": "126"
@@ -209,7 +209,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/the-developmental-edit-etc",
+  "to": "/blog/the-developmental-edit-etc",
   "query": {
    "key": "p",
    "value": "128"
@@ -217,7 +217,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/almost-there",
+  "to": "/blog/almost-there",
   "query": {
    "key": "p",
    "value": "133"
@@ -225,7 +225,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/countdown-to-launch",
+  "to": "/blog/countdown-to-launch",
   "query": {
    "key": "p",
    "value": "137"
@@ -233,7 +233,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/jeff-carson-interview",
+  "to": "/blog/jeff-carson-interview",
   "query": {
    "key": "p",
    "value": "143"
@@ -241,7 +241,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/orson-scott-card-reviews-immune-book-two-of-the-rho-agenda",
+  "to": "/blog/orson-scott-card-reviews-immune-book-two-of-the-rho-agenda",
   "query": {
    "key": "p",
    "value": "150"
@@ -249,7 +249,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/now-on-twitter-rhoagenda",
+  "to": "/blog/now-on-twitter-rhoagenda",
   "query": {
    "key": "p",
    "value": "164"
@@ -257,7 +257,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/watfordelephant87654gmail-com",
+  "to": "/blog/watfordelephant87654gmail-com",
   "query": {
    "key": "p",
    "value": "169"
@@ -265,7 +265,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/once-dead",
+  "to": "/blog/once-dead",
   "query": {
    "key": "p",
    "value": "172"
@@ -273,7 +273,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/an-independent-authors-path-to-publishing-success-on-the-kindle-2",
+  "to": "/blog/an-independent-authors-path-to-publishing-success-on-the-kindle-2",
   "query": {
    "key": "p",
    "value": "179"
@@ -281,7 +281,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/alien-agendas",
+  "to": "/blog/alien-agendas",
   "query": {
    "key": "p",
    "value": "255"
@@ -289,7 +289,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/amazons-exciting-new-opportunity-for-indie-authors",
+  "to": "/blog/amazons-exciting-new-opportunity-for-indie-authors",
   "query": {
    "key": "p",
    "value": "259"
@@ -297,7 +297,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/once-dead-available-for-preorder",
+  "to": "/blog/once-dead-available-for-preorder",
   "query": {
    "key": "p",
    "value": "274"
@@ -305,7 +305,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/once-dead-publishing-update",
+  "to": "/blog/once-dead-publishing-update",
   "query": {
    "key": "p",
    "value": "277"
@@ -313,7 +313,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/once-dead-scheduled-release-date",
+  "to": "/blog/once-dead-scheduled-release-date",
   "query": {
    "key": "p",
    "value": "307"
@@ -321,7 +321,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/just-sent-nine-tenths-of-the-law-to-my-publisher",
+  "to": "/blog/just-sent-nine-tenths-of-the-law-to-my-publisher",
   "query": {
    "key": "p",
    "value": "311"
@@ -329,7 +329,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/beta-reader-program-signup",
+  "to": "/blog/beta-reader-program-signup",
   "query": {
    "key": "p",
    "value": "313"
@@ -337,7 +337,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/german-translation-of-the-second-ship-jun-2014",
+  "to": "/blog/german-translation-of-the-second-ship-jun-2014",
   "query": {
    "key": "p",
    "value": "316"
@@ -345,7 +345,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/nine-tenths-of-the-law-renamed-banes-dominion",
+  "to": "/blog/nine-tenths-of-the-law-renamed-banes-dominion",
   "query": {
    "key": "p",
    "value": "322"
@@ -353,7 +353,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/official-cover-for-once-dead",
+  "to": "/blog/official-cover-for-once-dead",
   "query": {
    "key": "p",
    "value": "325"
@@ -361,7 +361,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/macleod-andrews-to-perform-once-dead-audiobook",
+  "to": "/blog/macleod-andrews-to-perform-once-dead-audiobook",
   "query": {
    "key": "p",
    "value": "332"
@@ -369,7 +369,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/may-the-ripper-be-with-you",
+  "to": "/blog/may-the-ripper-be-with-you",
   "query": {
    "key": "p",
    "value": "341"
@@ -377,7 +377,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/once-dead-available-on-tuesday-august-19th",
+  "to": "/blog/once-dead-available-on-tuesday-august-19th",
   "query": {
    "key": "p",
    "value": "343"
@@ -385,7 +385,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/nanobots-fight-cancer",
+  "to": "/blog/nanobots-fight-cancer",
   "query": {
    "key": "p",
    "value": "346"
@@ -393,7 +393,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/banes-dominion-retitled-dead-wrong",
+  "to": "/blog/banes-dominion-retitled-dead-wrong",
   "query": {
    "key": "p",
    "value": "347"
@@ -401,7 +401,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/third-book-title-feedback",
+  "to": "/blog/third-book-title-feedback",
   "query": {
    "key": "p",
    "value": "349"
@@ -409,7 +409,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/review-of-vessel-by-andrew-j-morgan",
+  "to": "/blog/review-of-vessel-by-andrew-j-morgan",
   "query": {
    "key": "p",
    "value": "352"
@@ -417,7 +417,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/early-beta-reader-program-for-deadman-walking",
+  "to": "/blog/early-beta-reader-program-for-deadman-walking",
   "query": {
    "key": "p",
    "value": "364"
@@ -425,7 +425,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/rho-agenda-das-zweite-shiff-the-second-ship-nominated-for-german-book-award",
+  "to": "/blog/rho-agenda-das-zweite-shiff-the-second-ship-nominated-for-german-book-award",
   "query": {
    "key": "p",
    "value": "369"
@@ -433,7 +433,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/what-has-had-the-biggest-impact-on-my-writing",
+  "to": "/blog/what-has-had-the-biggest-impact-on-my-writing",
   "query": {
    "key": "p",
    "value": "373"
@@ -441,7 +441,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/free-beta-reader-program-for-dead-shift-formerly-deadman-walking",
+  "to": "/blog/free-beta-reader-program-for-dead-shift-formerly-deadman-walking",
   "query": {
    "key": "p",
    "value": "375"
@@ -449,7 +449,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/enter-to-win-20-book-giveaway",
+  "to": "/blog/enter-to-win-20-book-giveaway",
   "query": {
    "key": "p",
    "value": "377"
@@ -457,7 +457,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/rho-agenda-novels-special-2-ea-through-january",
+  "to": "/blog/rho-agenda-novels-special-2-ea-through-january",
   "query": {
    "key": "p",
    "value": "382"
@@ -465,7 +465,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/announcing-richard-phillips-novel-dead-wrong-released",
+  "to": "/blog/announcing-richard-phillips-novel-dead-wrong-released",
   "query": {
    "key": "p",
    "value": "384"
@@ -473,7 +473,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/answers-to-two-questions-from-the-second-ship",
+  "to": "/blog/answers-to-two-questions-from-the-second-ship",
   "query": {
    "key": "p",
    "value": "402"
@@ -481,7 +481,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/final-chance-for-my-free-beta-reader-draft-of-dead-shift",
+  "to": "/blog/final-chance-for-my-free-beta-reader-draft-of-dead-shift",
   "query": {
    "key": "p",
    "value": "407"
@@ -489,7 +489,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/new-dead-shift-release-date",
+  "to": "/blog/new-dead-shift-release-date",
   "query": {
    "key": "p",
    "value": "410"
@@ -497,7 +497,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/announcing-new-alpha-reader-program",
+  "to": "/blog/announcing-new-alpha-reader-program",
   "query": {
    "key": "p",
    "value": "423"
@@ -505,7 +505,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/beta-reader-signup",
+  "to": "/blog/beta-reader-signup",
   "query": {
    "key": "p",
    "value": "443"
@@ -513,7 +513,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/dead-shift-rho-agenda-inception-3-jackgregory-thriller-rhoagenda-wwwblogs",
+  "to": "/blog/dead-shift-rho-agenda-inception-3-jackgregory-thriller-rhoagenda-wwwblogs",
   "query": {
    "key": "p",
    "value": "445"
@@ -521,7 +521,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/bob-mayers-excellent-take-on-theme-and-intent",
+  "to": "/blog/bob-mayers-excellent-take-on-theme-and-intent",
   "query": {
    "key": "p",
    "value": "451"
@@ -529,7 +529,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/banned-in-china",
+  "to": "/blog/banned-in-china",
   "query": {
    "key": "p",
    "value": "453"
@@ -537,7 +537,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/banned-in-china-part-deux",
+  "to": "/blog/banned-in-china-part-deux",
   "query": {
    "key": "p",
    "value": "471"
@@ -545,7 +545,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/the-kasari-nexus-in-production",
+  "to": "/blog/the-kasari-nexus-in-production",
   "query": {
    "key": "p",
    "value": "473"
@@ -553,7 +553,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/preview-of-the-kasari-nexus-book-one-of-the-rho-agenda-assimilation",
+  "to": "/blog/preview-of-the-kasari-nexus-book-one-of-the-rho-agenda-assimilation",
   "query": {
    "key": "p",
    "value": "477"
@@ -561,7 +561,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/im-in-austin-for-advanced-screening-of-casual-encounters-9-12-15",
+  "to": "/blog/im-in-austin-for-advanced-screening-of-casual-encounters-9-12-15",
   "query": {
    "key": "p",
    "value": "479"
@@ -569,7 +569,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/signed-rho-agenda-series-books",
+  "to": "/blog/signed-rho-agenda-series-books",
   "query": {
    "key": "p",
    "value": "484"
@@ -577,7 +577,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/chapter-one-of-the-altreian-enigma-book-two-of-the-rho-agenda-assimilation",
+  "to": "/blog/chapter-one-of-the-altreian-enigma-book-two-of-the-rho-agenda-assimilation",
   "query": {
    "key": "p",
    "value": "487"
@@ -585,7 +585,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/the-kasari-nexus-cover",
+  "to": "/blog/the-kasari-nexus-cover",
   "query": {
    "key": "p",
    "value": "489"
@@ -593,7 +593,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/the-kasari-nexus-full-cover",
+  "to": "/blog/the-kasari-nexus-full-cover",
   "query": {
    "key": "p",
    "value": "499"
@@ -601,7 +601,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/altreian-enigma-draft-preview-ch1-11",
+  "to": "/blog/altreian-enigma-draft-preview-ch1-11",
   "query": {
    "key": "p",
    "value": "506"
@@ -609,7 +609,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/free-review-copy-of-the-kasari-nexus-available",
+  "to": "/blog/free-review-copy-of-the-kasari-nexus-available",
   "query": {
    "key": "p",
    "value": "519"
@@ -617,7 +617,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/recommended-rho-agenda-reading-order",
+  "to": "/blog/recommended-rho-agenda-reading-order",
   "query": {
    "key": "p",
    "value": "532"
@@ -625,7 +625,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/alph-readers-club",
+  "to": "/blog/alph-readers-club",
   "query": {
    "key": "p",
    "value": "534"
@@ -633,7 +633,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/20-copy-giveaway-of-the-kasari-nexus",
+  "to": "/blog/20-copy-giveaway-of-the-kasari-nexus",
   "query": {
    "key": "p",
    "value": "565"
@@ -641,7 +641,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/kasari-nexus-audible-book-available",
+  "to": "/blog/kasari-nexus-audible-book-available",
   "query": {
    "key": "p",
    "value": "571"
@@ -649,7 +649,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/the-kasari-nexus-release",
+  "to": "/blog/the-kasari-nexus-release",
   "query": {
    "key": "p",
    "value": "575"
@@ -657,7 +657,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/kasari-map-of-planet-scion",
+  "to": "/blog/kasari-map-of-planet-scion",
   "query": {
    "key": "p",
    "value": "581"
@@ -665,7 +665,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/beta-reader-signup-for-the-altreian-enigma",
+  "to": "/blog/beta-reader-signup-for-the-altreian-enigma",
   "query": {
    "key": "p",
    "value": "591"
@@ -673,7 +673,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/dr-stephensons-ether-theory",
+  "to": "/blog/dr-stephensons-ether-theory",
   "query": {
    "key": "p",
    "value": "602"
@@ -681,7 +681,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/kindle-daily-deal",
+  "to": "/blog/kindle-daily-deal",
   "query": {
    "key": "p",
    "value": "608"
@@ -689,7 +689,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/kasari-nexus-kindle-monthly-deal",
+  "to": "/blog/kasari-nexus-kindle-monthly-deal",
   "query": {
    "key": "p",
    "value": "613"
@@ -697,7 +697,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/the-altreian-enigma-ch-1-5-draft",
+  "to": "/blog/the-altreian-enigma-ch-1-5-draft",
   "query": {
    "key": "p",
    "value": "617"
@@ -705,7 +705,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/orson-scott-card-reviews-immune",
+  "to": "/blog/orson-scott-card-reviews-immune",
   "query": {
    "key": "p",
    "value": "624"
@@ -713,7 +713,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/kindle-daily-deal-08172016-the-rho-agenda",
+  "to": "/blog/kindle-daily-deal-08172016-the-rho-agenda",
   "query": {
    "key": "p",
    "value": "641"
@@ -721,7 +721,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/meridian-ascent-1st-9-chapters",
+  "to": "/blog/meridian-ascent-1st-9-chapters",
   "query": {
    "key": "p",
    "value": "646"
@@ -729,7 +729,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/macleod-andrews-performs-the-altreian-enigma",
+  "to": "/blog/macleod-andrews-performs-the-altreian-enigma",
   "query": {
    "key": "p",
    "value": "657"
@@ -737,7 +737,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/www-facebook-comrichardphillipsscifi",
+  "to": "/blog/www-facebook-comrichardphillipsscifi",
   "query": {
    "key": "p",
    "value": "663"
@@ -745,7 +745,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/richard-phillips-scifi-page",
+  "to": "/blog/richard-phillips-scifi-page",
   "query": {
    "key": "p",
    "value": "667"
@@ -753,7 +753,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/british-kindle-daily-deal",
+  "to": "/blog/british-kindle-daily-deal",
   "query": {
    "key": "p",
    "value": "678"
@@ -761,7 +761,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/goodreads-giveaway-of-the-altreian-enigma",
+  "to": "/blog/goodreads-giveaway-of-the-altreian-enigma",
   "query": {
    "key": "p",
    "value": "683"
@@ -769,7 +769,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/happy-holidays-from-richard-phillips",
+  "to": "/blog/happy-holidays-from-richard-phillips",
   "query": {
    "key": "p",
    "value": "687"
@@ -777,7 +777,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/rho-agenda-kindle-monthly-deal",
+  "to": "/blog/rho-agenda-kindle-monthly-deal",
   "query": {
    "key": "p",
    "value": "695"
@@ -785,7 +785,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/the-altreian-enigma-released",
+  "to": "/blog/the-altreian-enigma-released",
   "query": {
    "key": "p",
    "value": "700"
@@ -793,7 +793,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/jack-the-rippergregory",
+  "to": "/blog/jack-the-rippergregory",
   "query": {
    "key": "p",
    "value": "704"
@@ -801,7 +801,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/beta-reader-draft-of-the-meridian-ascent",
+  "to": "/blog/beta-reader-draft-of-the-meridian-ascent",
   "query": {
    "key": "p",
    "value": "713"
@@ -809,7 +809,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/chronological-order-of-rho-agenda-series",
+  "to": "/blog/chronological-order-of-rho-agenda-series",
   "query": {
    "key": "p",
    "value": "726"
@@ -817,7 +817,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/books-1-and-2-of-the-endarian-prophecy",
+  "to": "/blog/books-1-and-2-of-the-endarian-prophecy",
   "query": {
    "key": "p",
    "value": "730"
@@ -825,7 +825,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/mark-of-fire-release-date-nov-1-2017",
+  "to": "/blog/mark-of-fire-release-date-nov-1-2017",
   "query": {
    "key": "p",
    "value": "742"
@@ -833,7 +833,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/richard-phillips-sci-fi-podcast",
+  "to": "/blog/richard-phillips-sci-fi-podcast",
   "query": {
    "key": "p",
    "value": "749"
@@ -841,7 +841,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/mark-of-fire-release-nov-1-2017",
+  "to": "/blog/mark-of-fire-release-nov-1-2017",
   "query": {
    "key": "p",
    "value": "756"
@@ -849,7 +849,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/goodreads-giveaway-of-the-meridian-ascent",
+  "to": "/blog/goodreads-giveaway-of-the-meridian-ascent",
   "query": {
    "key": "p",
    "value": "762"
@@ -857,7 +857,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/prophecys-daughter-release-jan-16-2018",
+  "to": "/blog/prophecys-daughter-release-jan-16-2018",
   "query": {
    "key": "p",
    "value": "766"
@@ -865,7 +865,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/conclusion-of-the-rho-agenda-series",
+  "to": "/blog/conclusion-of-the-rho-agenda-series",
   "query": {
    "key": "p",
    "value": "772"
@@ -873,7 +873,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/chronological-order-of-my-rho-agenda-series",
+  "to": "/blog/chronological-order-of-my-rho-agenda-series",
   "query": {
    "key": "p",
    "value": "786"
@@ -881,7 +881,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/rho-agenda-series-0-99-august-promo",
+  "to": "/blog/rho-agenda-series-0-99-august-promo",
   "query": {
    "key": "p",
    "value": "796"
@@ -889,7 +889,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/final-cover-for-prophecys-daughter",
+  "to": "/blog/final-cover-for-prophecys-daughter",
   "query": {
    "key": "p",
    "value": "804"
@@ -897,7 +897,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/super-blood-moon-awesome",
+  "to": "/blog/super-blood-moon-awesome",
   "query": {
    "key": "p",
    "value": "813"
@@ -905,7 +905,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/walnut-grove-ranch",
+  "to": "/blog/walnut-grove-ranch",
   "query": {
    "key": "page_id",
    "value": "815"
@@ -913,7 +913,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/walnut-grove-ranch-where-i-grew-up",
+  "to": "/blog/walnut-grove-ranch-where-i-grew-up",
   "query": {
    "key": "p",
    "value": "822"
@@ -921,7 +921,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/the-endarian-prophecy-much-more-to-come",
+  "to": "/blog/the-endarian-prophecy-much-more-to-come",
   "query": {
    "key": "p",
    "value": "824"
@@ -929,7 +929,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/the-shattered-trident-chapter-1-draft",
+  "to": "/blog/the-shattered-trident-chapter-1-draft",
   "query": {
    "key": "p",
    "value": "830"
@@ -937,7 +937,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/polish-language-translations-of-rho-agenda",
+  "to": "/blog/polish-language-translations-of-rho-agenda",
   "query": {
    "key": "p",
    "value": "832"
@@ -945,7 +945,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/rho-agenda-plans",
+  "to": "/blog/rho-agenda-plans",
   "query": {
    "key": "p",
    "value": "834"
@@ -953,7 +953,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/chronological-order-of-the-rho-agenda-series",
+  "to": "/blog/chronological-order-of-the-rho-agenda-series",
   "query": {
    "key": "page_id",
    "value": "838"
@@ -961,7 +961,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/shattered-trident-trailer",
+  "to": "/blog/shattered-trident-trailer",
   "query": {
    "key": "p",
    "value": "842"
@@ -969,7 +969,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/new-trailer-for-the-rho-agenda",
+  "to": "/blog/new-trailer-for-the-rho-agenda",
   "query": {
    "key": "p",
    "value": "845"
@@ -977,7 +977,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/introducing-best-selling-scifi-author-richard-phillips",
+  "to": "/blog/introducing-best-selling-scifi-author-richard-phillips",
   "query": {
    "key": "page_id",
    "value": "849"
@@ -985,7 +985,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/new-once-dead-trailer",
+  "to": "/blog/new-once-dead-trailer",
   "query": {
    "key": "p",
    "value": "852"
@@ -993,7 +993,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/dead-wrong-video-trailer",
+  "to": "/blog/dead-wrong-video-trailer",
   "query": {
    "key": "p",
    "value": "855"
@@ -1001,7 +1001,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/dead-shift-video-trailer",
+  "to": "/blog/dead-shift-video-trailer",
   "query": {
    "key": "p",
    "value": "858"
@@ -1009,7 +1009,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/so-you-want-to-write-a-bestseller",
+  "to": "/blog/so-you-want-to-write-a-bestseller",
   "query": {
    "key": "p",
    "value": "861"
@@ -1017,7 +1017,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/the-shattered-trident-released",
+  "to": "/blog/the-shattered-trident-released",
   "query": {
    "key": "p",
    "value": "864"
@@ -1025,7 +1025,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/thank-you-to-my-one-million-plus-readers",
+  "to": "/blog/thank-you-to-my-one-million-plus-readers",
   "query": {
    "key": "p",
    "value": "870"
@@ -1033,7 +1033,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/free-beta-reader-draft-of-the-seer-available",
+  "to": "/blog/free-beta-reader-draft-of-the-seer-available",
   "query": {
    "key": "p",
    "value": "874"
@@ -1041,7 +1041,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/lifes-edge-interview",
+  "to": "/blog/lifes-edge-interview",
   "query": {
    "key": "p",
    "value": "881"
@@ -1049,7 +1049,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/the-ranch-where-i-grew-up",
+  "to": "/blog/the-ranch-where-i-grew-up",
   "query": {
    "key": "p",
    "value": "885"
@@ -1057,7 +1057,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/richard-phillips-speech-how-to-write-a-bestseller",
+  "to": "/blog/richard-phillips-speech-how-to-write-a-bestseller",
   "query": {
    "key": "p",
    "value": "893"
@@ -1065,7 +1065,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/reading-order-of-the-rho-agenda-novels",
+  "to": "/blog/reading-order-of-the-rho-agenda-novels",
   "query": {
    "key": "p",
    "value": "896"
@@ -1073,7 +1073,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/rho-agenda-march-special",
+  "to": "/blog/rho-agenda-march-special",
   "query": {
    "key": "p",
    "value": "900"
@@ -1081,7 +1081,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/the-endarian-prophecy-april-2020-special",
+  "to": "/blog/the-endarian-prophecy-april-2020-special",
   "query": {
    "key": "p",
    "value": "903"
@@ -1089,7 +1089,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/prophecys-end-release",
+  "to": "/blog/prophecys-end-release",
   "query": {
    "key": "p",
    "value": "910"
@@ -1097,7 +1097,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/richard-phillips-novels-november-kindle-deal",
+  "to": "/blog/richard-phillips-novels-november-kindle-deal",
   "query": {
    "key": "p",
    "value": "917"
@@ -1105,7 +1105,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/goodreads-giveaway-of-prophecys-end",
+  "to": "/blog/goodreads-giveaway-of-prophecys-end",
   "query": {
    "key": "p",
    "value": "923"
@@ -1113,7 +1113,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/prophecys-end-goes-live-on-12-08-2020",
+  "to": "/blog/prophecys-end-goes-live-on-12-08-2020",
   "query": {
    "key": "p",
    "value": "928"
@@ -1121,7 +1121,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/the-bizarre-year-of-2020",
+  "to": "/blog/the-bizarre-year-of-2020",
   "query": {
    "key": "p",
    "value": "935"
@@ -1129,7 +1129,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/a-message-from-the-sound-of-silence",
+  "to": "/blog/a-message-from-the-sound-of-silence",
   "query": {
    "key": "p",
    "value": "938"
@@ -1137,7 +1137,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/i-asked-chatgpt-about-mankinds-future-with-it-not-good",
+  "to": "/blog/i-asked-chatgpt-about-mankinds-future-with-it-not-good",
   "query": {
    "key": "p",
    "value": "993"
@@ -1145,7 +1145,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/the-rippers-son-live-on-amazon",
+  "to": "/blog/the-rippers-son-live-on-amazon",
   "query": {
    "key": "p",
    "value": "1035"
@@ -1153,7 +1153,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/the-rippers-son-audiobook-is-coming-june-10th-as-an-audible-exclusive",
+  "to": "/blog/the-rippers-son-audiobook-is-coming-june-10th-as-an-audible-exclusive",
   "query": {
    "key": "p",
    "value": "1044"
@@ -1161,7 +1161,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/exciting-update-diving-into-book-two-of-the-rho-agenda-singularity-trilogy",
+  "to": "/blog/exciting-update-diving-into-book-two-of-the-rho-agenda-singularity-trilogy",
   "query": {
    "key": "p",
    "value": "1049"
@@ -1169,7 +1169,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/a-short-conversation-with-grok-4",
+  "to": "/blog/a-short-conversation-with-grok-4",
   "query": {
    "key": "p",
    "value": "1052"
@@ -1177,7 +1177,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/book-two-of-the-rho-agenda-singularity-update",
+  "to": "/blog/book-two-of-the-rho-agenda-singularity-update",
   "query": {
    "key": "p",
    "value": "1055"
@@ -1185,7 +1185,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/labor-day-thriller-deal-the-rippers-son-free-aug-31-sep-4-on-amazon",
+  "to": "/blog/labor-day-thriller-deal-the-rippers-son-free-aug-31-sep-4-on-amazon",
   "query": {
    "key": "p",
    "value": "1060"
@@ -1193,7 +1193,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/the-storm-is-coming-a-first-look-at-unpunished",
+  "to": "/blog/the-storm-is-coming-a-first-look-at-unpunished",
   "query": {
    "key": "p",
    "value": "1065"
@@ -1201,7 +1201,7 @@
  },
  {
   "src": "^/(?:index\\.php)?$",
-  "to": "/journal/updated-website",
+  "to": "/blog/updated-website",
   "query": {
    "key": "p",
    "value": "1070"
@@ -1209,734 +1209,734 @@
  },
  {
   "src": "^/2009/06/18/firstentry(?:/.*)?$",
-  "to": "/journal/firstentry"
+  "to": "/blog/firstentry"
  },
  {
   "src": "^/about(?:/.*)?$",
-  "to": "/journal/about-the-rho-agenda"
+  "to": "/blog/about-the-rho-agenda"
  },
  {
   "src": "^/2009/06/18/interview-update(?:/.*)?$",
-  "to": "/journal/interview-update"
+  "to": "/blog/interview-update"
  },
  {
   "src": "^/2009/06/19/interview-on-paranexus-universe(?:/.*)?$",
-  "to": "/journal/interview-on-paranexus-universe"
+  "to": "/blog/interview-on-paranexus-universe"
  },
  {
   "src": "^/2009/06/24/the-characters-in-the-rho-agenda(?:/.*)?$",
-  "to": "/journal/the-characters-in-the-rho-agenda"
+  "to": "/blog/the-characters-in-the-rho-agenda"
  },
  {
   "src": "^/2009/06/28/getting-ready-for-roswell(?:/.*)?$",
-  "to": "/journal/getting-ready-for-roswell"
+  "to": "/blog/getting-ready-for-roswell"
  },
  {
   "src": "^/2009/08/31/richard-phillips-on-coast-to-coast-am(?:/.*)?$",
-  "to": "/journal/richard-phillips-on-coast-to-coast-am"
+  "to": "/blog/richard-phillips-on-coast-to-coast-am"
  },
  {
   "src": "^/2009/09/21/west-point-30th-reunion(?:/.*)?$",
-  "to": "/journal/west-point-30th-reunion"
+  "to": "/blog/west-point-30th-reunion"
  },
  {
   "src": "^/2011/05/14/wormhole-update(?:/.*)?$",
-  "to": "/journal/wormhole-update"
+  "to": "/blog/wormhole-update"
  },
  {
   "src": "^/2011/06/27/the-dark-side(?:/.*)?$",
-  "to": "/journal/the-dark-side"
+  "to": "/blog/the-dark-side"
  },
  {
   "src": "^/2011/08/01/new-publisher(?:/.*)?$",
-  "to": "/journal/new-publisher"
+  "to": "/blog/new-publisher"
  },
  {
   "src": "^/2011/09/01/publisher-update(?:/.*)?$",
-  "to": "/journal/publisher-update"
+  "to": "/blog/publisher-update"
  },
  {
   "src": "^/2011/09/20/contract-negotiation-status-update(?:/.*)?$",
-  "to": "/journal/contract-negotiation-status-update"
+  "to": "/blog/contract-negotiation-status-update"
  },
  {
   "src": "^/2011/10/10/yet-another-wormhole-publishing-update(?:/.*)?$",
-  "to": "/journal/yet-another-wormhole-publishing-update"
+  "to": "/blog/yet-another-wormhole-publishing-update"
  },
  {
   "src": "^/2011/10/16/october-16-news(?:/.*)?$",
-  "to": "/journal/october-16-news"
+  "to": "/blog/october-16-news"
  },
  {
   "src": "^/2011/10/19/early-reader-feedback-program(?:/.*)?$",
-  "to": "/journal/early-reader-feedback-program"
+  "to": "/blog/early-reader-feedback-program"
  },
  {
   "src": "^/2011/11/26/wormhole-update-november-26-2011(?:/.*)?$",
-  "to": "/journal/wormhole-update-november-26-2011"
+  "to": "/blog/wormhole-update-november-26-2011"
  },
  {
   "src": "^/2011/12/23/happy-holidays(?:/.*)?$",
-  "to": "/journal/happy-holidays"
+  "to": "/blog/happy-holidays"
  },
  {
   "src": "^/2012/02/12/12-feb-2012-update(?:/.*)?$",
-  "to": "/journal/12-feb-2012-update"
+  "to": "/blog/12-feb-2012-update"
  },
  {
   "src": "^/2012/02/25/early-readers(?:/.*)?$",
-  "to": "/journal/early-readers"
+  "to": "/blog/early-readers"
  },
  {
   "src": "^/2012/03/09/march-9-2012-update(?:/.*)?$",
-  "to": "/journal/march-9-2012-update"
+  "to": "/blog/march-9-2012-update"
  },
  {
   "src": "^/2012/03/13/last-day-for-early-reader-feedback-program-for-wormhole(?:/.*)?$",
-  "to": "/journal/last-day-for-early-reader-feedback-program-for-wormhole"
+  "to": "/blog/last-day-for-early-reader-feedback-program-for-wormhole"
  },
  {
   "src": "^/2012/03/16/47-north-contract-signed(?:/.*)?$",
-  "to": "/journal/47-north-contract-signed"
+  "to": "/blog/47-north-contract-signed"
  },
  {
   "src": "^/2012/03/26/now-with-47-north(?:/.*)?$",
-  "to": "/journal/now-with-47-north"
+  "to": "/blog/now-with-47-north"
  },
  {
   "src": "^/2012/04/10/an-independent-authors-path-to-publishing-success-on-the-kindle(?:/.*)?$",
-  "to": "/journal/an-independent-authors-path-to-publishing-success-on-the-kindle"
+  "to": "/blog/an-independent-authors-path-to-publishing-success-on-the-kindle"
  },
  {
   "src": "^/2012/05/30/the-developmental-edit-etc(?:/.*)?$",
-  "to": "/journal/the-developmental-edit-etc"
+  "to": "/blog/the-developmental-edit-etc"
  },
  {
   "src": "^/2012/08/26/almost-there(?:/.*)?$",
-  "to": "/journal/almost-there"
+  "to": "/blog/almost-there"
  },
  {
   "src": "^/2012/09/29/countdown-to-launch(?:/.*)?$",
-  "to": "/journal/countdown-to-launch"
+  "to": "/blog/countdown-to-launch"
  },
  {
   "src": "^/2012/10/26/jeff-carson-interview(?:/.*)?$",
-  "to": "/journal/jeff-carson-interview"
+  "to": "/blog/jeff-carson-interview"
  },
  {
   "src": "^/2012/12/06/orson-scott-card-reviews-immune-book-two-of-the-rho-agenda(?:/.*)?$",
-  "to": "/journal/orson-scott-card-reviews-immune-book-two-of-the-rho-agenda"
+  "to": "/blog/orson-scott-card-reviews-immune-book-two-of-the-rho-agenda"
  },
  {
   "src": "^/2012/12/28/now-on-twitter-rhoagenda(?:/.*)?$",
-  "to": "/journal/now-on-twitter-rhoagenda"
+  "to": "/blog/now-on-twitter-rhoagenda"
  },
  {
   "src": "^/2013/01/05/watfordelephant87654gmail-com(?:/.*)?$",
-  "to": "/journal/watfordelephant87654gmail-com"
+  "to": "/blog/watfordelephant87654gmail-com"
  },
  {
   "src": "^/2013/01/16/once-dead(?:/.*)?$",
-  "to": "/journal/once-dead"
+  "to": "/blog/once-dead"
  },
  {
   "src": "^/2013/01/22/an-independent-authors-path-to-publishing-success-on-the-kindle-2(?:/.*)?$",
-  "to": "/journal/an-independent-authors-path-to-publishing-success-on-the-kindle-2"
+  "to": "/blog/an-independent-authors-path-to-publishing-success-on-the-kindle-2"
  },
  {
   "src": "^/2013/07/15/end-of-early-reader-feedback-program-for-once-dead(?:/.*)?$",
-  "to": "/journal/end-of-early-reader-feedback-program-for-once-dead"
+  "to": "/blog/end-of-early-reader-feedback-program-for-once-dead"
  },
  {
   "src": "^/2013/08/17/amazons-exciting-new-opportunity-for-indie-authors(?:/.*)?$",
-  "to": "/journal/amazons-exciting-new-opportunity-for-indie-authors"
+  "to": "/blog/amazons-exciting-new-opportunity-for-indie-authors"
  },
  {
   "src": "^/2013/09/25/alien-agendas(?:/.*)?$",
-  "to": "/journal/alien-agendas"
+  "to": "/blog/alien-agendas"
  },
  {
   "src": "^/2013/12/10/once-dead-publishing-update(?:/.*)?$",
-  "to": "/journal/once-dead-publishing-update"
+  "to": "/blog/once-dead-publishing-update"
  },
  {
   "src": "^/2014/01/31/once-dead-scheduled-release-date(?:/.*)?$",
-  "to": "/journal/once-dead-scheduled-release-date"
+  "to": "/blog/once-dead-scheduled-release-date"
  },
  {
   "src": "^/2014/02/16/once-dead-available-for-preorder(?:/.*)?$",
-  "to": "/journal/once-dead-available-for-preorder"
+  "to": "/blog/once-dead-available-for-preorder"
  },
  {
   "src": "^/2014/02/27/just-sent-nine-tenths-of-the-law-to-my-publisher(?:/.*)?$",
-  "to": "/journal/just-sent-nine-tenths-of-the-law-to-my-publisher"
+  "to": "/blog/just-sent-nine-tenths-of-the-law-to-my-publisher"
  },
  {
   "src": "^/2014/03/02/beta-reader-program-signup(?:/.*)?$",
-  "to": "/journal/beta-reader-program-signup"
+  "to": "/blog/beta-reader-program-signup"
  },
  {
   "src": "^/2014/03/05/german-translation-of-the-second-ship-jun-2014(?:/.*)?$",
-  "to": "/journal/german-translation-of-the-second-ship-jun-2014"
+  "to": "/blog/german-translation-of-the-second-ship-jun-2014"
  },
  {
   "src": "^/2014/03/26/nine-tenths-of-the-law-renamed-banes-dominion(?:/.*)?$",
-  "to": "/journal/nine-tenths-of-the-law-renamed-banes-dominion"
+  "to": "/blog/nine-tenths-of-the-law-renamed-banes-dominion"
  },
  {
   "src": "^/2014/03/26/official-cover-for-once-dead(?:/.*)?$",
-  "to": "/journal/official-cover-for-once-dead"
+  "to": "/blog/official-cover-for-once-dead"
  },
  {
   "src": "^/2014/04/05/macleod-andrews-to-perform-once-dead-audiobook(?:/.*)?$",
-  "to": "/journal/macleod-andrews-to-perform-once-dead-audiobook"
+  "to": "/blog/macleod-andrews-to-perform-once-dead-audiobook"
  },
  {
   "src": "^/2014/08/15/may-the-ripper-be-with-you(?:/.*)?$",
-  "to": "/journal/may-the-ripper-be-with-you"
+  "to": "/blog/may-the-ripper-be-with-you"
  },
  {
   "src": "^/2014/08/18/once-dead-available-on-tuesday-august-19th(?:/.*)?$",
-  "to": "/journal/once-dead-available-on-tuesday-august-19th"
+  "to": "/blog/once-dead-available-on-tuesday-august-19th"
  },
  {
   "src": "^/2014/09/04/banes-dominion-retitled-dead-wrong(?:/.*)?$",
-  "to": "/journal/banes-dominion-retitled-dead-wrong"
+  "to": "/blog/banes-dominion-retitled-dead-wrong"
  },
  {
   "src": "^/2014/09/05/third-book-title-feedback(?:/.*)?$",
-  "to": "/journal/third-book-title-feedback"
+  "to": "/blog/third-book-title-feedback"
  },
  {
   "src": "^/2014/10/01/review-of-vessel-by-andrew-j-morgan(?:/.*)?$",
-  "to": "/journal/review-of-vessel-by-andrew-j-morgan"
+  "to": "/blog/review-of-vessel-by-andrew-j-morgan"
  },
  {
   "src": "^/2014/10/06/nanobots-fight-cancer(?:/.*)?$",
-  "to": "/journal/nanobots-fight-cancer"
+  "to": "/blog/nanobots-fight-cancer"
  },
  {
   "src": "^/2014/10/28/early-beta-reader-program-for-deadman-walking(?:/.*)?$",
-  "to": "/journal/early-beta-reader-program-for-deadman-walking"
+  "to": "/blog/early-beta-reader-program-for-deadman-walking"
  },
  {
   "src": "^/2014/11/20/rho-agenda-das-zweite-shiff-the-second-ship-nominated-for-german-book-award(?:/.*)?$",
-  "to": "/journal/rho-agenda-das-zweite-shiff-the-second-ship-nominated-for-german-book-award"
+  "to": "/blog/rho-agenda-das-zweite-shiff-the-second-ship-nominated-for-german-book-award"
  },
  {
   "src": "^/2014/11/20/what-has-had-the-biggest-impact-on-my-writing(?:/.*)?$",
-  "to": "/journal/what-has-had-the-biggest-impact-on-my-writing"
+  "to": "/blog/what-has-had-the-biggest-impact-on-my-writing"
  },
  {
   "src": "^/2014/11/22/free-beta-reader-program-for-dead-shift-formerly-deadman-walking(?:/.*)?$",
-  "to": "/journal/free-beta-reader-program-for-dead-shift-formerly-deadman-walking"
+  "to": "/blog/free-beta-reader-program-for-dead-shift-formerly-deadman-walking"
  },
  {
   "src": "^/2014/12/15/enter-to-win-20-book-giveaway(?:/.*)?$",
-  "to": "/journal/enter-to-win-20-book-giveaway"
+  "to": "/blog/enter-to-win-20-book-giveaway"
  },
  {
   "src": "^/2015/01/04/rho-agenda-novels-special-2-ea-through-january(?:/.*)?$",
-  "to": "/journal/rho-agenda-novels-special-2-ea-through-january"
+  "to": "/blog/rho-agenda-novels-special-2-ea-through-january"
  },
  {
   "src": "^/2015/01/06/announcing-richard-phillips-novel-dead-wrong-released(?:/.*)?$",
-  "to": "/journal/announcing-richard-phillips-novel-dead-wrong-released"
+  "to": "/blog/announcing-richard-phillips-novel-dead-wrong-released"
  },
  {
   "src": "^/2015/02/19/answers-to-two-questions-from-the-second-ship(?:/.*)?$",
-  "to": "/journal/answers-to-two-questions-from-the-second-ship"
+  "to": "/blog/answers-to-two-questions-from-the-second-ship"
  },
  {
   "src": "^/2015/02/24/final-chance-for-my-free-beta-reader-draft-of-dead-shift(?:/.*)?$",
-  "to": "/journal/final-chance-for-my-free-beta-reader-draft-of-dead-shift"
+  "to": "/blog/final-chance-for-my-free-beta-reader-draft-of-dead-shift"
  },
  {
   "src": "^/2015/03/07/new-dead-shift-release-date(?:/.*)?$",
-  "to": "/journal/new-dead-shift-release-date"
+  "to": "/blog/new-dead-shift-release-date"
  },
  {
   "src": "^/2015/04/21/announcing-new-alpha-reader-program(?:/.*)?$",
-  "to": "/journal/announcing-new-alpha-reader-program"
+  "to": "/blog/announcing-new-alpha-reader-program"
  },
  {
   "src": "^/2015/06/04/beta-reader-signup(?:/.*)?$",
-  "to": "/journal/beta-reader-signup"
+  "to": "/blog/beta-reader-signup"
  },
  {
   "src": "^/2015/06/10/dead-shift-rho-agenda-inception-3-jackgregory-thriller-rhoagenda-wwwblogs(?:/.*)?$",
-  "to": "/journal/dead-shift-rho-agenda-inception-3-jackgregory-thriller-rhoagenda-wwwblogs"
+  "to": "/blog/dead-shift-rho-agenda-inception-3-jackgregory-thriller-rhoagenda-wwwblogs"
  },
  {
   "src": "^/2015/06/16/bob-mayers-excellent-take-on-theme-and-intent(?:/.*)?$",
-  "to": "/journal/bob-mayers-excellent-take-on-theme-and-intent"
+  "to": "/blog/bob-mayers-excellent-take-on-theme-and-intent"
  },
  {
   "src": "^/2015/06/16/banned-in-china(?:/.*)?$",
-  "to": "/journal/banned-in-china"
+  "to": "/blog/banned-in-china"
  },
  {
   "src": "^/2015/09/07/banned-in-china-part-deux(?:/.*)?$",
-  "to": "/journal/banned-in-china-part-deux"
+  "to": "/blog/banned-in-china-part-deux"
  },
  {
   "src": "^/2015/09/11/the-kasari-nexus-in-production(?:/.*)?$",
-  "to": "/journal/the-kasari-nexus-in-production"
+  "to": "/blog/the-kasari-nexus-in-production"
  },
  {
   "src": "^/2015/09/11/preview-of-the-kasari-nexus-book-one-of-the-rho-agenda-assimilation(?:/.*)?$",
-  "to": "/journal/preview-of-the-kasari-nexus-book-one-of-the-rho-agenda-assimilation"
+  "to": "/blog/preview-of-the-kasari-nexus-book-one-of-the-rho-agenda-assimilation"
  },
  {
   "src": "^/2015/09/12/im-in-austin-for-advanced-screening-of-casual-encounters-9-12-15(?:/.*)?$",
-  "to": "/journal/im-in-austin-for-advanced-screening-of-casual-encounters-9-12-15"
+  "to": "/blog/im-in-austin-for-advanced-screening-of-casual-encounters-9-12-15"
  },
  {
   "src": "^/2015/09/24/signed-rho-agenda-series-books(?:/.*)?$",
-  "to": "/journal/signed-rho-agenda-series-books"
+  "to": "/blog/signed-rho-agenda-series-books"
  },
  {
   "src": "^/2015/10/20/chapter-one-of-the-altreian-enigma-book-two-of-the-rho-agenda-assimilation(?:/.*)?$",
-  "to": "/journal/chapter-one-of-the-altreian-enigma-book-two-of-the-rho-agenda-assimilation"
+  "to": "/blog/chapter-one-of-the-altreian-enigma-book-two-of-the-rho-agenda-assimilation"
  },
  {
   "src": "^/2015/11/21/the-kasari-nexus-cover(?:/.*)?$",
-  "to": "/journal/the-kasari-nexus-cover"
+  "to": "/blog/the-kasari-nexus-cover"
  },
  {
   "src": "^/2015/12/14/the-kasari-nexus-full-cover(?:/.*)?$",
-  "to": "/journal/the-kasari-nexus-full-cover"
+  "to": "/blog/the-kasari-nexus-full-cover"
  },
  {
   "src": "^/2016/01/07/altreian-enigma-draft-preview-ch1-11(?:/.*)?$",
-  "to": "/journal/altreian-enigma-draft-preview-ch1-11"
+  "to": "/blog/altreian-enigma-draft-preview-ch1-11"
  },
  {
   "src": "^/2016/02/10/free-review-copy-of-the-kasari-nexus-available(?:/.*)?$",
-  "to": "/journal/free-review-copy-of-the-kasari-nexus-available"
+  "to": "/blog/free-review-copy-of-the-kasari-nexus-available"
  },
  {
   "src": "^/2016/02/28/recommended-rho-agenda-reading-order(?:/.*)?$",
-  "to": "/journal/recommended-rho-agenda-reading-order"
+  "to": "/blog/recommended-rho-agenda-reading-order"
  },
  {
   "src": "^/2016/03/04/alph-readers-club(?:/.*)?$",
-  "to": "/journal/alph-readers-club"
+  "to": "/blog/alph-readers-club"
  },
  {
   "src": "^/2016/03/08/20-copy-giveaway-of-the-kasari-nexus(?:/.*)?$",
-  "to": "/journal/20-copy-giveaway-of-the-kasari-nexus"
+  "to": "/blog/20-copy-giveaway-of-the-kasari-nexus"
  },
  {
   "src": "^/2016/03/29/kasari-nexus-audible-book-available(?:/.*)?$",
-  "to": "/journal/kasari-nexus-audible-book-available"
+  "to": "/blog/kasari-nexus-audible-book-available"
  },
  {
   "src": "^/2016/04/04/the-kasari-nexus-release(?:/.*)?$",
-  "to": "/journal/the-kasari-nexus-release"
+  "to": "/blog/the-kasari-nexus-release"
  },
  {
   "src": "^/2016/04/06/kasari-map-of-planet-scion(?:/.*)?$",
-  "to": "/journal/kasari-map-of-planet-scion"
+  "to": "/blog/kasari-map-of-planet-scion"
  },
  {
   "src": "^/2016/04/06/beta-reader-signup-for-the-altreian-enigma(?:/.*)?$",
-  "to": "/journal/beta-reader-signup-for-the-altreian-enigma"
+  "to": "/blog/beta-reader-signup-for-the-altreian-enigma"
  },
  {
   "src": "^/2016/06/13/dr-stephensons-ether-theory(?:/.*)?$",
-  "to": "/journal/dr-stephensons-ether-theory"
+  "to": "/blog/dr-stephensons-ether-theory"
  },
  {
   "src": "^/2016/06/28/kindle-daily-deal(?:/.*)?$",
-  "to": "/journal/kindle-daily-deal"
+  "to": "/blog/kindle-daily-deal"
  },
  {
   "src": "^/2016/06/30/kasari-nexus-kindle-monthly-deal(?:/.*)?$",
-  "to": "/journal/kasari-nexus-kindle-monthly-deal"
+  "to": "/blog/kasari-nexus-kindle-monthly-deal"
  },
  {
   "src": "^/2016/07/07/the-altreian-enigma-ch-1-5-draft(?:/.*)?$",
-  "to": "/journal/the-altreian-enigma-ch-1-5-draft"
+  "to": "/blog/the-altreian-enigma-ch-1-5-draft"
  },
  {
   "src": "^/2016/08/16/orson-scott-card-reviews-immune(?:/.*)?$",
-  "to": "/journal/orson-scott-card-reviews-immune"
+  "to": "/blog/orson-scott-card-reviews-immune"
  },
  {
   "src": "^/2016/08/17/kindle-daily-deal-08172016-the-rho-agenda(?:/.*)?$",
-  "to": "/journal/kindle-daily-deal-08172016-the-rho-agenda"
+  "to": "/blog/kindle-daily-deal-08172016-the-rho-agenda"
  },
  {
   "src": "^/2016/09/07/meridian-ascent-1st-9-chapters(?:/.*)?$",
-  "to": "/journal/meridian-ascent-1st-9-chapters"
+  "to": "/blog/meridian-ascent-1st-9-chapters"
  },
  {
   "src": "^/2016/09/08/macleod-andrews-performs-the-altreian-enigma(?:/.*)?$",
-  "to": "/journal/macleod-andrews-performs-the-altreian-enigma"
+  "to": "/blog/macleod-andrews-performs-the-altreian-enigma"
  },
  {
   "src": "^/2016/09/29/www-facebook-comrichardphillipsscifi(?:/.*)?$",
-  "to": "/journal/www-facebook-comrichardphillipsscifi"
+  "to": "/blog/www-facebook-comrichardphillipsscifi"
  },
  {
   "src": "^/2016/10/10/richard-phillips-scifi-page(?:/.*)?$",
-  "to": "/journal/richard-phillips-scifi-page"
+  "to": "/blog/richard-phillips-scifi-page"
  },
  {
   "src": "^/2016/11/08/british-kindle-daily-deal(?:/.*)?$",
-  "to": "/journal/british-kindle-daily-deal"
+  "to": "/blog/british-kindle-daily-deal"
  },
  {
   "src": "^/2016/11/08/goodreads-giveaway-of-the-altreian-enigma(?:/.*)?$",
-  "to": "/journal/goodreads-giveaway-of-the-altreian-enigma"
+  "to": "/blog/goodreads-giveaway-of-the-altreian-enigma"
  },
  {
   "src": "^/2016/11/25/happy-holidays-from-richard-phillips(?:/.*)?$",
-  "to": "/journal/happy-holidays-from-richard-phillips"
+  "to": "/blog/happy-holidays-from-richard-phillips"
  },
  {
   "src": "^/2016/12/02/rho-agenda-kindle-monthly-deal(?:/.*)?$",
-  "to": "/journal/rho-agenda-kindle-monthly-deal"
+  "to": "/blog/rho-agenda-kindle-monthly-deal"
  },
  {
   "src": "^/2016/12/05/the-altreian-enigma-released(?:/.*)?$",
-  "to": "/journal/the-altreian-enigma-released"
+  "to": "/blog/the-altreian-enigma-released"
  },
  {
   "src": "^/2016/12/17/jack-the-rippergregory(?:/.*)?$",
-  "to": "/journal/jack-the-rippergregory"
+  "to": "/blog/jack-the-rippergregory"
  },
  {
   "src": "^/2016/12/31/beta-reader-draft-of-the-meridian-ascent(?:/.*)?$",
-  "to": "/journal/beta-reader-draft-of-the-meridian-ascent"
+  "to": "/blog/beta-reader-draft-of-the-meridian-ascent"
  },
  {
   "src": "^/2017/04/16/chronological-order-of-rho-agenda-series(?:/.*)?$",
-  "to": "/journal/chronological-order-of-rho-agenda-series"
+  "to": "/blog/chronological-order-of-rho-agenda-series"
  },
  {
   "src": "^/2017/05/02/books-1-and-2-of-the-endarian-prophecy(?:/.*)?$",
-  "to": "/journal/books-1-and-2-of-the-endarian-prophecy"
+  "to": "/blog/books-1-and-2-of-the-endarian-prophecy"
  },
  {
   "src": "^/2017/06/24/mark-of-fire-release-date-nov-1-2017(?:/.*)?$",
-  "to": "/journal/mark-of-fire-release-date-nov-1-2017"
+  "to": "/blog/mark-of-fire-release-date-nov-1-2017"
  },
  {
   "src": "^/2017/06/25/richard-phillips-sci-fi-podcast(?:/.*)?$",
-  "to": "/journal/richard-phillips-sci-fi-podcast"
+  "to": "/blog/richard-phillips-sci-fi-podcast"
  },
  {
   "src": "^/2017/07/12/mark-of-fire-release-nov-1-2017(?:/.*)?$",
-  "to": "/journal/mark-of-fire-release-nov-1-2017"
+  "to": "/blog/mark-of-fire-release-nov-1-2017"
  },
  {
   "src": "^/2017/07/13/goodreads-giveaway-of-the-meridian-ascent(?:/.*)?$",
-  "to": "/journal/goodreads-giveaway-of-the-meridian-ascent"
+  "to": "/blog/goodreads-giveaway-of-the-meridian-ascent"
  },
  {
   "src": "^/2017/07/13/prophecys-daughter-release-jan-16-2018(?:/.*)?$",
-  "to": "/journal/prophecys-daughter-release-jan-16-2018"
+  "to": "/blog/prophecys-daughter-release-jan-16-2018"
  },
  {
   "src": "^/2017/07/27/conclusion-of-the-rho-agenda-series(?:/.*)?$",
-  "to": "/journal/conclusion-of-the-rho-agenda-series"
+  "to": "/blog/conclusion-of-the-rho-agenda-series"
  },
  {
   "src": "^/2017/07/28/chronological-order-of-my-rho-agenda-series(?:/.*)?$",
-  "to": "/journal/chronological-order-of-my-rho-agenda-series"
+  "to": "/blog/chronological-order-of-my-rho-agenda-series"
  },
  {
   "src": "^/2017/08/01/rho-agenda-series-0-99-august-promo(?:/.*)?$",
-  "to": "/journal/rho-agenda-series-0-99-august-promo"
+  "to": "/blog/rho-agenda-series-0-99-august-promo"
  },
  {
   "src": "^/2017/08/19/final-cover-for-prophecys-daughter(?:/.*)?$",
-  "to": "/journal/final-cover-for-prophecys-daughter"
+  "to": "/blog/final-cover-for-prophecys-daughter"
  },
  {
   "src": "^/2018/01/31/super-blood-moon-awesome(?:/.*)?$",
-  "to": "/journal/super-blood-moon-awesome"
+  "to": "/blog/super-blood-moon-awesome"
  },
  {
   "src": "^/walnut-grove-ranch-where-i-grew-up(?:/.*)?$",
-  "to": "/journal/walnut-grove-ranch"
+  "to": "/blog/walnut-grove-ranch"
  },
  {
   "src": "^/2018/02/13/walnut-grove-ranch-where-i-grew-up(?:/.*)?$",
-  "to": "/journal/walnut-grove-ranch-where-i-grew-up"
+  "to": "/blog/walnut-grove-ranch-where-i-grew-up"
  },
  {
   "src": "^/2018/03/03/the-endarian-prophecy-much-more-to-come(?:/.*)?$",
-  "to": "/journal/the-endarian-prophecy-much-more-to-come"
+  "to": "/blog/the-endarian-prophecy-much-more-to-come"
  },
  {
   "src": "^/2018/03/29/the-shattered-trident-chapter-1-draft(?:/.*)?$",
-  "to": "/journal/the-shattered-trident-chapter-1-draft"
+  "to": "/blog/the-shattered-trident-chapter-1-draft"
  },
  {
   "src": "^/2018/04/17/polish-language-translations-of-rho-agenda(?:/.*)?$",
-  "to": "/journal/polish-language-translations-of-rho-agenda"
+  "to": "/blog/polish-language-translations-of-rho-agenda"
  },
  {
   "src": "^/2018/05/08/rho-agenda-plans(?:/.*)?$",
-  "to": "/journal/rho-agenda-plans"
+  "to": "/blog/rho-agenda-plans"
  },
  {
   "src": "^/2018/07/21/shattered-trident-trailer(?:/.*)?$",
-  "to": "/journal/shattered-trident-trailer"
+  "to": "/blog/shattered-trident-trailer"
  },
  {
   "src": "^/2018/07/22/new-trailer-for-the-rho-agenda(?:/.*)?$",
-  "to": "/journal/new-trailer-for-the-rho-agenda"
+  "to": "/blog/new-trailer-for-the-rho-agenda"
  },
  {
   "src": "^/introducing-best-selling-scifi-author-richard-phillips(?:/.*)?$",
-  "to": "/journal/introducing-best-selling-scifi-author-richard-phillips"
+  "to": "/blog/introducing-best-selling-scifi-author-richard-phillips"
  },
  {
   "src": "^/2018/07/30/new-once-dead-trailer(?:/.*)?$",
-  "to": "/journal/new-once-dead-trailer"
+  "to": "/blog/new-once-dead-trailer"
  },
  {
   "src": "^/2018/09/10/dead-wrong-video-trailer(?:/.*)?$",
-  "to": "/journal/dead-wrong-video-trailer"
+  "to": "/blog/dead-wrong-video-trailer"
  },
  {
   "src": "^/2018/09/11/dead-shift-video-trailer(?:/.*)?$",
-  "to": "/journal/dead-shift-video-trailer"
+  "to": "/blog/dead-shift-video-trailer"
  },
  {
   "src": "^/2018/10/24/so-you-want-to-write-a-bestseller(?:/.*)?$",
-  "to": "/journal/so-you-want-to-write-a-bestseller"
+  "to": "/blog/so-you-want-to-write-a-bestseller"
  },
  {
   "src": "^/2019/08/22/the-shattered-trident-released(?:/.*)?$",
-  "to": "/journal/the-shattered-trident-released"
+  "to": "/blog/the-shattered-trident-released"
  },
  {
   "src": "^/2019/08/23/thank-you-to-my-one-million-plus-readers(?:/.*)?$",
-  "to": "/journal/thank-you-to-my-one-million-plus-readers"
+  "to": "/blog/thank-you-to-my-one-million-plus-readers"
  },
  {
   "src": "^/2019/08/29/free-beta-reader-draft-of-the-seer-available(?:/.*)?$",
-  "to": "/journal/free-beta-reader-draft-of-the-seer-available"
+  "to": "/blog/free-beta-reader-draft-of-the-seer-available"
  },
  {
   "src": "^/2019/08/30/lifes-edge-interview(?:/.*)?$",
-  "to": "/journal/lifes-edge-interview"
+  "to": "/blog/lifes-edge-interview"
  },
  {
   "src": "^/2019/10/03/the-ranch-where-i-grew-up(?:/.*)?$",
-  "to": "/journal/the-ranch-where-i-grew-up"
+  "to": "/blog/the-ranch-where-i-grew-up"
  },
  {
   "src": "^/2019/10/29/richard-phillips-speech-how-to-write-a-bestseller(?:/.*)?$",
-  "to": "/journal/richard-phillips-speech-how-to-write-a-bestseller"
+  "to": "/blog/richard-phillips-speech-how-to-write-a-bestseller"
  },
  {
   "src": "^/2020/02/28/reading-order-of-the-rho-agenda-novels(?:/.*)?$",
-  "to": "/journal/reading-order-of-the-rho-agenda-novels"
+  "to": "/blog/reading-order-of-the-rho-agenda-novels"
  },
  {
   "src": "^/2020/03/02/rho-agenda-march-special(?:/.*)?$",
-  "to": "/journal/rho-agenda-march-special"
+  "to": "/blog/rho-agenda-march-special"
  },
  {
   "src": "^/2020/04/20/the-endarian-prophecy-april-2020-special(?:/.*)?$",
-  "to": "/journal/the-endarian-prophecy-april-2020-special"
+  "to": "/blog/the-endarian-prophecy-april-2020-special"
  },
  {
   "src": "^/2020/10/07/prophecys-end-release(?:/.*)?$",
-  "to": "/journal/prophecys-end-release"
+  "to": "/blog/prophecys-end-release"
  },
  {
   "src": "^/2020/10/29/richard-phillips-novels-november-kindle-deal(?:/.*)?$",
-  "to": "/journal/richard-phillips-novels-november-kindle-deal"
+  "to": "/blog/richard-phillips-novels-november-kindle-deal"
  },
  {
   "src": "^/2020/11/04/goodreads-giveaway-of-prophecys-end(?:/.*)?$",
-  "to": "/journal/goodreads-giveaway-of-prophecys-end"
+  "to": "/blog/goodreads-giveaway-of-prophecys-end"
  },
  {
   "src": "^/2020/12/01/prophecys-end-goes-live-on-12-08-2020(?:/.*)?$",
-  "to": "/journal/prophecys-end-goes-live-on-12-08-2020"
+  "to": "/blog/prophecys-end-goes-live-on-12-08-2020"
  },
  {
   "src": "^/2020/12/03/the-bizarre-year-of-2020(?:/.*)?$",
-  "to": "/journal/the-bizarre-year-of-2020"
+  "to": "/blog/the-bizarre-year-of-2020"
  },
  {
   "src": "^/2021/02/21/a-message-from-the-sound-of-silence(?:/.*)?$",
-  "to": "/journal/a-message-from-the-sound-of-silence"
+  "to": "/blog/a-message-from-the-sound-of-silence"
  },
  {
   "src": "^/2023/02/16/i-asked-chatgpt-about-mankinds-future-with-it-not-good(?:/.*)?$",
-  "to": "/journal/i-asked-chatgpt-about-mankinds-future-with-it-not-good"
+  "to": "/blog/i-asked-chatgpt-about-mankinds-future-with-it-not-good"
  },
  {
   "src": "^/2025/05/10/the-rippers-son-live-on-amazon(?:/.*)?$",
-  "to": "/journal/the-rippers-son-live-on-amazon"
+  "to": "/blog/the-rippers-son-live-on-amazon"
  },
  {
   "src": "^/chronological-order-of-the-rho-agenda-series(?:/.*)?$",
-  "to": "/journal/chronological-order-of-the-rho-agenda-series"
+  "to": "/blog/chronological-order-of-the-rho-agenda-series"
  },
  {
   "src": "^/2025/05/26/the-rippers-son-audiobook-is-coming-june-10th-as-an-audible-exclusive(?:/.*)?$",
-  "to": "/journal/the-rippers-son-audiobook-is-coming-june-10th-as-an-audible-exclusive"
+  "to": "/blog/the-rippers-son-audiobook-is-coming-june-10th-as-an-audible-exclusive"
  },
  {
   "src": "^/2025/07/16/exciting-update-diving-into-book-two-of-the-rho-agenda-singularity-trilogy(?:/.*)?$",
-  "to": "/journal/exciting-update-diving-into-book-two-of-the-rho-agenda-singularity-trilogy"
+  "to": "/blog/exciting-update-diving-into-book-two-of-the-rho-agenda-singularity-trilogy"
  },
  {
   "src": "^/2025/07/24/a-short-conversation-with-grok-4(?:/.*)?$",
-  "to": "/journal/a-short-conversation-with-grok-4"
+  "to": "/blog/a-short-conversation-with-grok-4"
  },
  {
   "src": "^/2025/08/05/book-two-of-the-rho-agenda-singularity-update(?:/.*)?$",
-  "to": "/journal/book-two-of-the-rho-agenda-singularity-update"
+  "to": "/blog/book-two-of-the-rho-agenda-singularity-update"
  },
  {
   "src": "^/2025/08/31/labor-day-thriller-deal-the-rippers-son-free-aug-31-sep-4-on-amazon(?:/.*)?$",
-  "to": "/journal/labor-day-thriller-deal-the-rippers-son-free-aug-31-sep-4-on-amazon"
+  "to": "/blog/labor-day-thriller-deal-the-rippers-son-free-aug-31-sep-4-on-amazon"
  },
  {
   "src": "^/2025/09/29/the-storm-is-coming-a-first-look-at-dsai-of-darkness(?:/.*)?$",
-  "to": "/journal/the-storm-is-coming-a-first-look-at-unpunished"
+  "to": "/blog/the-storm-is-coming-a-first-look-at-unpunished"
  },
  {
   "src": "^/2026/09/07/updated-website(?:/.*)?$",
-  "to": "/journal/updated-website"
+  "to": "/blog/updated-website"
  },
  {
   "src": "^/wp-content/uploads/2009/06/review(?:-\\d+x\\d+)?\\.jpg$",
-  "to": "/journal/media/2009/06/review.jpg"
+  "to": "/blog/media/2009/06/review.jpg"
  },
  {
   "src": "^/wp-content/uploads/2009/06/richardphillipsphotojacket(?:-\\d+x\\d+)?\\.jpg$",
-  "to": "/journal/media/2009/06/richardphillipsphotojacket.jpg"
+  "to": "/blog/media/2009/06/richardphillipsphotojacket.jpg"
  },
  {
   "src": "^/wp-content/uploads/2009/06/secondshipsmallcover1(?:-\\d+x\\d+)?\\.jpg$",
-  "to": "/journal/media/2009/06/secondshipsmallcover1.jpg"
+  "to": "/blog/media/2009/06/secondshipsmallcover1.jpg"
  },
  {
   "src": "^/wp-content/uploads/2009/08/richardphillipsphotohs(?:-\\d+x\\d+)?\\.jpg$",
-  "to": "/journal/media/2009/08/richardphillipsphotohs.jpg"
+  "to": "/blog/media/2009/08/richardphillipsphotohs.jpg"
  },
  {
   "src": "^/wp-content/uploads/2012/09/locusbackcoverpromo(?:-\\d+x\\d+)?\\.jpg$",
-  "to": "/journal/media/2012/09/locusbackcoverpromo.jpg"
+  "to": "/blog/media/2012/09/locusbackcoverpromo.jpg"
  },
  {
   "src": "^/wp-content/uploads/2012/12/osc2(?:-\\d+x\\d+)?\\.jpg$",
-  "to": "/journal/media/2012/12/osc2.jpg"
+  "to": "/blog/media/2012/12/osc2.jpg"
  },
  {
   "src": "^/wp-content/uploads/2014/03/oncedeadcover(?:-\\d+x\\d+)?\\.jpg$",
-  "to": "/journal/media/2014/03/oncedeadcover.jpg"
+  "to": "/blog/media/2014/03/oncedeadcover.jpg"
  },
  {
   "src": "^/wp-content/uploads/2014/03/second-ship-german-cover(?:-\\d+x\\d+)?\\.jpg$",
-  "to": "/journal/media/2014/03/second-ship-german-cover.jpg"
+  "to": "/blog/media/2014/03/second-ship-german-cover.jpg"
  },
  {
   "src": "^/wp-content/uploads/2015/01/dead-shift-cover-1-color(?:-\\d+x\\d+)?\\.jpg$",
-  "to": "/journal/media/2015/01/dead-shift-cover-1-color.jpg"
+  "to": "/blog/media/2015/01/dead-shift-cover-1-color.jpg"
  },
  {
   "src": "^/wp-content/uploads/2015/01/deadwrong_concept-3(?:-\\d+x\\d+)?\\.jpg$",
-  "to": "/journal/media/2015/01/deadwrong_concept-3.jpg"
+  "to": "/blog/media/2015/01/deadwrong_concept-3.jpg"
  },
  {
   "src": "^/wp-content/uploads/2015/06/deadshift(?:-\\d+x\\d+)?\\.jpg$",
-  "to": "/journal/media/2015/06/deadshift.jpg"
+  "to": "/blog/media/2015/06/deadshift.jpg"
  },
  {
   "src": "^/wp-content/uploads/2015/11/the-kasari-nexus-final-cover(?:-\\d+x\\d+)?\\.jpg$",
-  "to": "/journal/media/2015/11/the-kasari-nexus-final-cover.jpg"
+  "to": "/blog/media/2015/11/the-kasari-nexus-final-cover.jpg"
  },
  {
   "src": "^/wp-content/uploads/2015/12/phillips-thekasarinexus-fullcover(?:-\\d+x\\d+)?\\.jpg$",
-  "to": "/journal/media/2015/12/phillips-thekasarinexus-fullcover.jpg"
+  "to": "/blog/media/2015/12/phillips-thekasarinexus-fullcover.jpg"
  },
  {
   "src": "^/wp-content/uploads/2016/03/second-ship-book-club(?:-\\d+x\\d+)?\\.jpg$",
-  "to": "/journal/media/2016/03/second-ship-book-club.jpg"
+  "to": "/blog/media/2016/03/second-ship-book-club.jpg"
  },
  {
   "src": "^/wp-content/uploads/2016/04/phillips-the-kasari-nexus-scion-map1024x1600(?:-\\d+x\\d+)?\\.jpg$",
-  "to": "/journal/media/2016/04/phillips-the-kasari-nexus-scion-map1024x1600.jpg"
+  "to": "/blog/media/2016/04/phillips-the-kasari-nexus-scion-map1024x1600.jpg"
  },
  {
   "src": "^/wp-content/uploads/2016/08/orsonscottcard500x700(?:-\\d+x\\d+)?\\.jpg$",
-  "to": "/journal/media/2016/08/orsonscottcard500x700.jpg"
+  "to": "/blog/media/2016/08/orsonscottcard500x700.jpg"
  },
  {
   "src": "^/wp-content/uploads/2016/12/the-meridian-ascent(?:-\\d+x\\d+)?\\.jpg$",
-  "to": "/journal/media/2016/12/the-meridian-ascent.jpg"
+  "to": "/blog/media/2016/12/the-meridian-ascent.jpg"
  },
  {
   "src": "^/wp-content/uploads/2017/05/endarian-continent-map(?:-\\d+x\\d+)?\\.jpg$",
-  "to": "/journal/media/2017/05/endarian-continent-map.jpg"
+  "to": "/blog/media/2017/05/endarian-continent-map.jpg"
  },
  {
   "src": "^/wp-content/uploads/2017/06/mark-of-fire(?:-\\d+x\\d+)?\\.jpg$",
-  "to": "/journal/media/2017/06/mark-of-fire.jpg"
+  "to": "/blog/media/2017/06/mark-of-fire.jpg"
  },
  {
   "src": "^/wp-content/uploads/2017/07/mark-of-fire(?:-\\d+x\\d+)?\\.jpg$",
-  "to": "/journal/media/2017/07/mark-of-fire.jpg"
+  "to": "/blog/media/2017/07/mark-of-fire.jpg"
  },
  {
   "src": "^/wp-content/uploads/2017/07/prophecys-daughter(?:-\\d+x\\d+)?\\.jpg$",
-  "to": "/journal/media/2017/07/prophecys-daughter.jpg"
+  "to": "/blog/media/2017/07/prophecys-daughter.jpg"
  },
  {
   "src": "^/wp-content/uploads/2017/08/phillips-prophecys-cover-hirez(?:-\\d+x\\d+)?\\.jpg$",
-  "to": "/journal/media/2017/08/phillips-prophecys-cover-hirez.jpg"
+  "to": "/blog/media/2017/08/phillips-prophecys-cover-hirez.jpg"
  },
  {
   "src": "^/wp-content/uploads/2018/02/walnut-grove-ranch(?:-\\d+x\\d+)?\\.jpg$",
-  "to": "/journal/media/2018/02/walnut-grove-ranch.jpg"
+  "to": "/blog/media/2018/02/walnut-grove-ranch.jpg"
  },
  {
   "src": "^/wp-content/uploads/2018/03/phillipsphotoheadshot3x3(?:-\\d+x\\d+)?\\.jpg$",
-  "to": "/journal/media/2018/03/phillipsphotoheadshot3x3.jpg"
+  "to": "/blog/media/2018/03/phillipsphotoheadshot3x3.jpg"
  },
  {
   "src": "^/wp-content/uploads/2020/10/phillips-prophecysend-final-cover(?:-\\d+x\\d+)?\\.jpg$",
-  "to": "/journal/media/2020/10/phillips-prophecysend-final-cover.jpg"
+  "to": "/blog/media/2020/10/phillips-prophecysend-final-cover.jpg"
  },
  {
   "src": "^/wp-content/uploads/2025/05/the-rippers-son-kindle-cover(?:-\\d+x\\d+)?\\.jpg$",
-  "to": "/journal/media/2025/05/the-rippers-son-kindle-cover.jpg"
+  "to": "/blog/media/2025/05/the-rippers-son-kindle-cover.jpg"
  },
  {
   "src": "^/wp-content/uploads/2026/09/secondship-website-screenshot-copy(?:-\\d+x\\d+)?\\.jpg$",
-  "to": "/journal/media/2026/09/secondship-website-screenshot-copy.jpg"
+  "to": "/blog/media/2026/09/secondship-website-screenshot-copy.jpg"
  },
  {
   "src": "^/(?:feed|comments/feed|rss|rss2|atom)(?:/.*)?$",
-  "to": "/journal/rss.xml"
+  "to": "/blog/rss.xml"
  },
  {
   "src": "^/(?:category|tag|author)/.+/feed(?:/.*)?$",
-  "to": "/journal/rss.xml"
+  "to": "/blog/rss.xml"
  },
  {
   "src": "^/(\\d{4})(?:/\\d{2}(?:/\\d{2})?)?(?:/page/\\d+)?/?$",
-  "to": "/journal#year-$1"
+  "to": "/blog#year-$1"
  },
  {
   "src": "^/(?:category|tag|author|page)(?:/.*)?$",
-  "to": "/journal"
+  "to": "/blog"
  },
  {
   "src": "^/(?!\\.well-known/).*$",
-  "to": "/journal"
+  "to": "/blog"
  }
 ]

@@ -3,7 +3,7 @@ import { tanstackStart } from "@tanstack/react-start/plugin/vite";
 import viteReact from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 import { nitro } from "nitro/vite";
-import { rhoagendaVercelRoutes } from "./server/rhoagenda-redirects.ts";
+import { redirectVercelRoutes } from "./server/redirects.ts";
 
 export default defineConfig({
   resolve: { tsconfigPaths: true },
@@ -12,12 +12,13 @@ export default defineConfig({
     tanstackStart(),
     nitro({
       preset: "vercel",
-      // server/middleware/rhoagenda-redirect.ts (host-based 301s for rhoagenda.me).
+      // server/middleware/redirects.ts (backstop for the redirects below).
       serverDir: "./server",
-      // Old rhoagenda.me URLs -> /journal, only when the Host is rhoagenda.me.
-      // Prepended to the routes in .vercel/output/config.json so they run at the
-      // edge. vercel.json redirects are not applied to Build Output API deploys.
-      vercel: { config: { version: 3, routes: rhoagendaVercelRoutes() } },
+      // Old rhoagenda.me URLs -> /blog (only when the Host is rhoagenda.me) and
+      // old /journal URLs -> /blog. Prepended to the routes in
+      // .vercel/output/config.json so they run at the edge. vercel.json
+      // redirects are not applied to Build Output API deploys.
+      vercel: { config: { version: 3, routes: redirectVercelRoutes() } },
       // Old Netlify-era URL. The beta-reader list now lives on /readers.
       // Nitro emits these as Vercel edge redirects in .vercel/output/config.json.
       routeRules: {

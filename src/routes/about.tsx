@@ -82,7 +82,7 @@ function AboutPage() {
               <Link to="/contact">Contact</Link>
             </Button>
             <Button asChild variant="ghost">
-              <Link to="/journal">Journal</Link>
+              <Link to="/blog">Blog</Link>
             </Button>
           </div>
         </div>

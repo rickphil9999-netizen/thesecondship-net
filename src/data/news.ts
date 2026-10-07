@@ -1,7 +1,7 @@
 export type NewsItem = {
   title: string;
   date: string;
-  /** Slug of the Journal post at /journal/$slug. */
+  /** Slug of the Blog post at /blog/$slug. */
   slug: string;
   dek: string;
 };
