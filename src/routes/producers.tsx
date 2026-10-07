@@ -131,7 +131,7 @@ function ProducersPage() {
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground">
             A completed science-fiction saga with the ensemble engine of
-            prestige television. and an author who has actually sat in the
+            prestige television, and an author who has actually sat in the
             rooms the story is about.
           </p>
           <Button asChild size="lg" className="mt-8">
