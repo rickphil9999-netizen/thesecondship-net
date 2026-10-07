@@ -2,6 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { Rss } from "lucide-react";
 import { NEWS } from "@/data/news";
 import { BLOG_PAGES, BLOG_POSTS, blogPostsByYear } from "@/data/blog";
+import { ReadersSignup } from "@/components/readers-signup";
 
 export const Route = createFileRoute("/blog/")({
   component: BlogPage,
@@ -79,6 +80,8 @@ function BlogPage() {
           ))}
         </ol>
       </section>
+
+      <ReadersSignup className="mt-12" />
 
       <nav
         aria-label="Years"

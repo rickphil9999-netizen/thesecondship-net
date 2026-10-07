@@ -13,6 +13,7 @@ import { BookCover } from "@/components/book-cover";
 import { BookCard } from "@/components/book-card";
 import { Button } from "@/components/ui/button";
 import { BuyLinks } from "@/components/buy-links";
+import { ReadersSignup } from "@/components/readers-signup";
 
 export const Route = createFileRoute("/")({ component: Home });
 
@@ -188,6 +189,12 @@ function Home() {
               </Link>
             ))}
           </div>
+        </div>
+      </section>
+
+      <section className="border-b border-border">
+        <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
+          <ReadersSignup />
         </div>
       </section>
 

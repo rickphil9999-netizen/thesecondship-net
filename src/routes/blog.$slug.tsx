@@ -1,6 +1,7 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { BlogComments } from "@/components/blog-comments";
+import { ReadersSignup } from "@/components/readers-signup";
 import { Button } from "@/components/ui/button";
 
 const SITE = "https://thesecondship.net";
@@ -94,6 +95,8 @@ function BlogEntryPage() {
             ? "Originally a page on the Rho Agenda blog (rhoagenda.me)."
             : `Originally published on the Rho Agenda blog (rhoagenda.me) on ${entry.dateLabel}.`}
         </p>
+
+        <ReadersSignup className="mt-12" />
 
         {content.comments.length > 0 ? (
           <BlogComments

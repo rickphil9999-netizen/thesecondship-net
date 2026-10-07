@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
+import { ReadersSignup } from "@/components/readers-signup";
 
 const STORAGE_KEY = "rp-readers-list";
 
@@ -39,6 +40,12 @@ function ReadersPage() {
         <ReadersForm />
         <BetaForm />
       </div>
+
+      <ReadersSignup
+        className="mt-10"
+        eyebrow="Email updates"
+        copy="Prefer email updates over writing in? New books, early excerpts, and blog posts, straight to your inbox. No spam, unsubscribe anytime."
+      />
     </main>
   );
 }
