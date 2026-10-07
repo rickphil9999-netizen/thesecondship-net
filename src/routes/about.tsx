@@ -82,9 +82,7 @@ function AboutPage() {
               <Link to="/contact">Contact</Link>
             </Button>
             <Button asChild variant="ghost">
-              <a href={AUTHOR.blog} target="_blank" rel="noreferrer">
-                Journal
-              </a>
+              <Link to="/journal">Journal</Link>
             </Button>
           </div>
         </div>

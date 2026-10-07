@@ -13,13 +13,14 @@ import { Route as IndexRouteImport } from './routes/index'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as BooksRouteImport } from './routes/books'
 import { Route as ContactRouteImport } from './routes/contact'
-import { Route as JournalRouteImport } from './routes/journal'
 import { Route as ProducersRouteImport } from './routes/producers'
 import { Route as ReadersRouteImport } from './routes/readers'
 import { Route as ReadingOrderRouteImport } from './routes/reading-order'
 import { Route as TrailersRouteImport } from './routes/trailers'
 import { Route as BooksIndexRouteImport } from './routes/books.index'
 import { Route as BooksSlugRouteImport } from './routes/books.$slug'
+import { Route as JournalIndexRouteImport } from './routes/journal.index'
+import { Route as JournalSlugRouteImport } from './routes/journal.$slug'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -39,11 +40,6 @@ const BooksRoute = BooksRouteImport.update({
 const ContactRoute = ContactRouteImport.update({
   id: '/contact',
   path: '/contact',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const JournalRoute = JournalRouteImport.update({
-  id: '/journal',
-  path: '/journal',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ProducersRoute = ProducersRouteImport.update({
@@ -76,31 +72,43 @@ const BooksSlugRoute = BooksSlugRouteImport.update({
   path: '/$slug',
   getParentRoute: () => BooksRoute,
 } as any)
+const JournalIndexRoute = JournalIndexRouteImport.update({
+  id: '/journal/',
+  path: '/journal/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const JournalSlugRoute = JournalSlugRouteImport.update({
+  id: '/journal/$slug',
+  path: '/journal/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/books': typeof BooksRouteWithChildren
   '/contact': typeof ContactRoute
-  '/journal': typeof JournalRoute
   '/producers': typeof ProducersRoute
   '/readers': typeof ReadersRoute
   '/reading-order': typeof ReadingOrderRoute
   '/trailers': typeof TrailersRoute
   '/books/$slug': typeof BooksSlugRoute
+  '/journal/$slug': typeof JournalSlugRoute
   '/books/': typeof BooksIndexRoute
+  '/journal/': typeof JournalIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/contact': typeof ContactRoute
-  '/journal': typeof JournalRoute
   '/producers': typeof ProducersRoute
   '/readers': typeof ReadersRoute
   '/reading-order': typeof ReadingOrderRoute
   '/trailers': typeof TrailersRoute
   '/books/$slug': typeof BooksSlugRoute
+  '/journal/$slug': typeof JournalSlugRoute
   '/books': typeof BooksIndexRoute
+  '/journal': typeof JournalIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -108,13 +116,14 @@ export interface FileRoutesById {
   '/about': typeof AboutRoute
   '/books': typeof BooksRouteWithChildren
   '/contact': typeof ContactRoute
-  '/journal': typeof JournalRoute
   '/producers': typeof ProducersRoute
   '/readers': typeof ReadersRoute
   '/reading-order': typeof ReadingOrderRoute
   '/trailers': typeof TrailersRoute
   '/books/$slug': typeof BooksSlugRoute
+  '/journal/$slug': typeof JournalSlugRoute
   '/books/': typeof BooksIndexRoute
+  '/journal/': typeof JournalIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -123,38 +132,41 @@ export interface FileRouteTypes {
     | '/about'
     | '/books'
     | '/contact'
-    | '/journal'
     | '/producers'
     | '/readers'
     | '/reading-order'
     | '/trailers'
     | '/books/$slug'
+    | '/journal/$slug'
     | '/books/'
+    | '/journal/'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
     | '/about'
     | '/contact'
-    | '/journal'
     | '/producers'
     | '/readers'
     | '/reading-order'
     | '/trailers'
     | '/books/$slug'
+    | '/journal/$slug'
     | '/books'
+    | '/journal'
   id:
     | '__root__'
     | '/'
     | '/about'
     | '/books'
     | '/contact'
-    | '/journal'
     | '/producers'
     | '/readers'
     | '/reading-order'
     | '/trailers'
     | '/books/$slug'
+    | '/journal/$slug'
     | '/books/'
+    | '/journal/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -162,11 +174,12 @@ export interface RootRouteChildren {
   AboutRoute: typeof AboutRoute
   BooksRoute: typeof BooksRouteWithChildren
   ContactRoute: typeof ContactRoute
-  JournalRoute: typeof JournalRoute
   ProducersRoute: typeof ProducersRoute
   ReadersRoute: typeof ReadersRoute
   ReadingOrderRoute: typeof ReadingOrderRoute
   TrailersRoute: typeof TrailersRoute
+  JournalSlugRoute: typeof JournalSlugRoute
+  JournalIndexRoute: typeof JournalIndexRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -197,13 +210,6 @@ declare module '@tanstack/react-router' {
       path: '/contact'
       fullPath: '/contact'
       preLoaderRoute: typeof ContactRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/journal': {
-      id: '/journal'
-      path: '/journal'
-      fullPath: '/journal'
-      preLoaderRoute: typeof JournalRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/producers': {
@@ -248,6 +254,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof BooksSlugRouteImport
       parentRoute: typeof BooksRoute
     }
+    '/journal/': {
+      id: '/journal/'
+      path: '/journal'
+      fullPath: '/journal/'
+      preLoaderRoute: typeof JournalIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/journal/$slug': {
+      id: '/journal/$slug'
+      path: '/journal/$slug'
+      fullPath: '/journal/$slug'
+      preLoaderRoute: typeof JournalSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -268,11 +288,12 @@ const rootRouteChildren: RootRouteChildren = {
   AboutRoute: AboutRoute,
   BooksRoute: BooksRouteWithChildren,
   ContactRoute: ContactRoute,
-  JournalRoute: JournalRoute,
   ProducersRoute: ProducersRoute,
   ReadersRoute: ReadersRoute,
   ReadingOrderRoute: ReadingOrderRoute,
   TrailersRoute: TrailersRoute,
+  JournalSlugRoute: JournalSlugRoute,
+  JournalIndexRoute: JournalIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

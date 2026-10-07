@@ -56,11 +56,6 @@ export function SiteFooter() {
               </a>
             </li>
             <li>
-              <a href={AUTHOR.blog} target="_blank" rel="noreferrer">
-                Rho Agenda journal
-              </a>
-            </li>
-            <li>
               <a href={AUTHOR.x} target="_blank" rel="noreferrer">
                 X / @RhoAgenda
               </a>

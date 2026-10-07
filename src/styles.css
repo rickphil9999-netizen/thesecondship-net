@@ -89,3 +89,134 @@
     scroll-behavior: auto !important;
   }
 }
+
+/* Journal posts migrated from rhoagenda.me (sanitized HTML). */
+@layer components {
+  .journal-content {
+    font-size: 1.0625rem;
+    line-height: 1.75;
+    color: color-mix(in oklab, var(--color-foreground) 90%, transparent);
+    overflow-wrap: break-word;
+  }
+  .journal-content > * + * {
+    margin-top: 1.25em;
+  }
+  .journal-content::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .journal-content h2 {
+    margin-top: 2em;
+    font-size: 1.875rem;
+    line-height: 1.2;
+    color: var(--color-foreground);
+  }
+  .journal-content h3,
+  .journal-content h4 {
+    margin-top: 1.75em;
+    font-size: 1.5rem;
+    line-height: 1.25;
+    color: var(--color-foreground);
+  }
+  .journal-content a {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-color: color-mix(in oklab, var(--color-foreground) 40%, transparent);
+  }
+  .journal-content a:hover {
+    text-decoration-color: currentColor;
+  }
+  .journal-content strong,
+  .journal-content b {
+    color: var(--color-foreground);
+    font-weight: 600;
+  }
+  .journal-content ul,
+  .journal-content ol {
+    padding-left: 1.5em;
+  }
+  .journal-content ul {
+    list-style: disc;
+  }
+  .journal-content ol {
+    list-style: decimal;
+  }
+  .journal-content li + li {
+    margin-top: 0.4em;
+  }
+  .journal-content blockquote {
+    border-left: 2px solid var(--color-border);
+    padding-left: 1.25em;
+    color: var(--color-muted-foreground);
+    font-style: italic;
+  }
+  .journal-content hr {
+    border-color: var(--color-border);
+  }
+  .journal-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--color-border);
+  }
+  .journal-content figure {
+    max-width: 100%;
+  }
+  .journal-content figcaption {
+    margin-top: 0.5em;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: var(--color-muted-foreground);
+  }
+  .journal-content .align-center,
+  .journal-content figure.align-center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .journal-content .align-center img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @media (min-width: 640px) {
+    .journal-content .align-right {
+      float: right;
+      max-width: 45%;
+      margin: 0.25em 0 1em 1.5em;
+    }
+    .journal-content .align-left {
+      float: left;
+      max-width: 45%;
+      margin: 0.25em 1.5em 1em 0;
+    }
+  }
+  .journal-content .journal-embed {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--color-border);
+    background: var(--color-muted);
+    clear: both;
+  }
+  .journal-content .journal-embed iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+  .journal-comment > * + * {
+    margin-top: 0.75em;
+  }
+  .journal-comment a {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+  .journal-comment blockquote {
+    border-left: 2px solid var(--color-border);
+    padding-left: 1em;
+    color: var(--color-muted-foreground);
+  }
+}

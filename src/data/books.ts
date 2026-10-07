@@ -38,7 +38,7 @@ export const AUTHOR = {
   email: "Richard.Phillips@SecondShip.net",
   mailto: "mailto:Richard.Phillips@SecondShip.net",
   amazonAuthor: "https://www.amazon.com/Richard-Phillips/e/B007OWTQZC",
-  blog: "https://rhoagenda.me/",
+  blog: "/journal",
   facebook: "https://www.facebook.com/richardphillipsscifi/",
   x: "https://x.com/RhoAgenda",
   linkedin: "https://www.linkedin.com/in/richard-phillips-b942a63a",

@@ -170,11 +170,10 @@ function Home() {
           </div>
           <div className="mt-10 grid gap-8 md:grid-cols-3">
             {NEWS.map((item) => (
-              <a
-                key={item.href + item.title}
-                href={item.href}
-                target="_blank"
-                rel="noreferrer"
+              <Link
+                key={item.slug}
+                to="/journal/$slug"
+                params={{ slug: item.slug }}
                 className="flex flex-col gap-2 rounded-xl border border-border bg-card p-5 hover:bg-muted"
               >
                 <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground">
@@ -186,7 +185,7 @@ function Home() {
                 <p className="text-sm leading-relaxed text-muted-foreground">
                   {item.dek}
                 </p>
-              </a>
+              </Link>
             ))}
           </div>
         </div>
