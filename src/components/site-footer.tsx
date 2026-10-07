@@ -3,6 +3,7 @@ import { AUTHOR } from "@/data/books";
 
 const FOOTER_NAV = [
   { to: "/books", label: "Books" },
+  { to: "/producers", label: "For Producers" },
   { to: "/reading-order", label: "Reading order" },
   { to: "/trailers", label: "Trailers" },
   { to: "/journal", label: "Journal" },

@@ -14,6 +14,7 @@ import { Route as AboutRouteImport } from './routes/about'
 import { Route as BooksRouteImport } from './routes/books'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as JournalRouteImport } from './routes/journal'
+import { Route as ProducersRouteImport } from './routes/producers'
 import { Route as ReadersRouteImport } from './routes/readers'
 import { Route as ReadingOrderRouteImport } from './routes/reading-order'
 import { Route as TrailersRouteImport } from './routes/trailers'
@@ -43,6 +44,11 @@ const ContactRoute = ContactRouteImport.update({
 const JournalRoute = JournalRouteImport.update({
   id: '/journal',
   path: '/journal',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ProducersRoute = ProducersRouteImport.update({
+  id: '/producers',
+  path: '/producers',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ReadersRoute = ReadersRouteImport.update({
@@ -77,6 +83,7 @@ export interface FileRoutesByFullPath {
   '/books': typeof BooksRouteWithChildren
   '/contact': typeof ContactRoute
   '/journal': typeof JournalRoute
+  '/producers': typeof ProducersRoute
   '/readers': typeof ReadersRoute
   '/reading-order': typeof ReadingOrderRoute
   '/trailers': typeof TrailersRoute
@@ -88,6 +95,7 @@ export interface FileRoutesByTo {
   '/about': typeof AboutRoute
   '/contact': typeof ContactRoute
   '/journal': typeof JournalRoute
+  '/producers': typeof ProducersRoute
   '/readers': typeof ReadersRoute
   '/reading-order': typeof ReadingOrderRoute
   '/trailers': typeof TrailersRoute
@@ -101,6 +109,7 @@ export interface FileRoutesById {
   '/books': typeof BooksRouteWithChildren
   '/contact': typeof ContactRoute
   '/journal': typeof JournalRoute
+  '/producers': typeof ProducersRoute
   '/readers': typeof ReadersRoute
   '/reading-order': typeof ReadingOrderRoute
   '/trailers': typeof TrailersRoute
@@ -115,6 +124,7 @@ export interface FileRouteTypes {
     | '/books'
     | '/contact'
     | '/journal'
+    | '/producers'
     | '/readers'
     | '/reading-order'
     | '/trailers'
@@ -126,6 +136,7 @@ export interface FileRouteTypes {
     | '/about'
     | '/contact'
     | '/journal'
+    | '/producers'
     | '/readers'
     | '/reading-order'
     | '/trailers'
@@ -138,6 +149,7 @@ export interface FileRouteTypes {
     | '/books'
     | '/contact'
     | '/journal'
+    | '/producers'
     | '/readers'
     | '/reading-order'
     | '/trailers'
@@ -151,6 +163,7 @@ export interface RootRouteChildren {
   BooksRoute: typeof BooksRouteWithChildren
   ContactRoute: typeof ContactRoute
   JournalRoute: typeof JournalRoute
+  ProducersRoute: typeof ProducersRoute
   ReadersRoute: typeof ReadersRoute
   ReadingOrderRoute: typeof ReadingOrderRoute
   TrailersRoute: typeof TrailersRoute
@@ -191,6 +204,13 @@ declare module '@tanstack/react-router' {
       path: '/journal'
       fullPath: '/journal'
       preLoaderRoute: typeof JournalRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/producers': {
+      id: '/producers'
+      path: '/producers'
+      fullPath: '/producers'
+      preLoaderRoute: typeof ProducersRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/readers': {
@@ -249,6 +269,7 @@ const rootRouteChildren: RootRouteChildren = {
   BooksRoute: BooksRouteWithChildren,
   ContactRoute: ContactRoute,
   JournalRoute: JournalRoute,
+  ProducersRoute: ProducersRoute,
   ReadersRoute: ReadersRoute,
   ReadingOrderRoute: ReadingOrderRoute,
   TrailersRoute: TrailersRoute,
