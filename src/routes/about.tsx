@@ -49,7 +49,7 @@ function AboutPage() {
             Wrong, Dead Shift); The Rho Agenda (The Second Ship, Immune, and
             Wormhole); The Rho Agenda Assimilation (The Kasari Nexus, The
             Altreian Enigma, and The Meridian Ascent); The Rho Agenda
-            Singularity (The Ripper’s Son, with DSAI of Darkness in progress);
+            Singularity (The Ripper’s Son, with Unpunished in progress);
             and The Endarian Prophecy (Mark of Fire through Prophecy’s End).
           </p>
           <p>

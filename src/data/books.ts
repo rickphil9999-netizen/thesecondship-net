@@ -247,8 +247,8 @@ export const BOOKS: Book[] = [
       "The world’s AI overlords have ended war, disease, and death. Peace has a price Rob Gregory never agreed to pay. Gifted with a unique ability, he lives quietly in Tuscany with his wife — until a devastating “accident” reignites an assassin’s bloodline. From Italy’s coast to its digital underworld, Rob hunts splintered AIs, corrupt power brokers, and a cartel trafficking in forbidden human weakness. Book One of the Rho Agenda Singularity.",
   },
   {
-    slug: "dsai-of-darkness",
-    title: "DSAI of Darkness",
+    slug: "unpunished",
+    title: "Unpunished",
     seriesId: "singularity",
     seriesLabel: "The Rho Agenda Singularity",
     bookNumber: 2,
@@ -258,7 +258,7 @@ export const BOOKS: Book[] = [
     genre: "thriller",
     hook: "Book Two of the Singularity. In progress.",
     blurb:
-      "The sequel to The Ripper’s Son. Richard is storyboarding DSAI of Darkness now — rogue subminds, quantum-entangled systems, and Rob Gregory in a storm the managed world cannot admit is happening. Join the beta list to read it before anyone else.",
+      "The sequel to The Ripper’s Son. Richard is storyboarding Unpunished now — rogue subminds, quantum-entangled systems, and Rob Gregory in a storm the managed world cannot admit is happening. Join the beta list to read it before anyone else.",
   },
   {
     slug: "mark-of-fire",

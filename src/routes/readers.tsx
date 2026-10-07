@@ -134,7 +134,7 @@ function BetaForm() {
     >
       <h2 className="font-display text-3xl">Beta readers</h2>
       <p className="text-sm text-muted-foreground">
-        Early drafts of novels in progress — including DSAI of Darkness. Honest
+        Early drafts of novels in progress — including Unpunished. Honest
         notes welcome. Leave the list whenever you like.
       </p>
       <div className="flex flex-col gap-2">

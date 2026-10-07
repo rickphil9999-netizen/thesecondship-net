@@ -16,6 +16,9 @@ export default defineConfig({
       routeRules: {
         "/beta-readers": { redirect: { to: "/readers", status: 301 } },
         "/beta-readers/": { redirect: { to: "/readers", status: 301 } },
+        // Working title changed from "DSAI of Darkness" to "Unpunished" (Oct 2026).
+        "/books/dsai-of-darkness": { redirect: { to: "/books/unpunished", status: 301 } },
+        "/books/dsai-of-darkness/": { redirect: { to: "/books/unpunished", status: 301 } },
       },
     }),
     viteReact(),
