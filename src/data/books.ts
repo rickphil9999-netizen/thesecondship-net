@@ -258,7 +258,7 @@ export const BOOKS: Book[] = [
     genre: "thriller",
     hook: "Book Two of the Singularity. In progress.",
     blurb:
-      "The sequel to The Ripper’s Son. Richard is storyboarding Unpunished now — rogue subminds, quantum-entangled systems, and Rob Gregory in a storm the managed world cannot admit is happening. Join the beta list to read it before anyone else.",
+      "The sequel to The Ripper’s Son. Richard is writing Unpunished now from his new home in Georgetown, Texas, and aims to finish it by the new year — rogue subminds, quantum-entangled systems, and Rob Gregory in a storm the managed world cannot admit is happening. Join the beta list to read it before anyone else.",
   },
   {
     slug: "mark-of-fire",
