@@ -253,7 +253,7 @@ export const BOOKS: Book[] = [
     seriesLabel: "The Rho Agenda Singularity",
     bookNumber: 2,
     year: 2026,
-    cover: "",
+    cover: "/covers/unpunished.jpg",
     status: "forthcoming",
     genre: "thriller",
     hook: "Book Two of the Singularity. In progress.",
