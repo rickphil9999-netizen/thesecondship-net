@@ -23,40 +23,8 @@ function Home() {
 
   return (
     <main id="main">
-      <section className="border-b border-border">
-        <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 py-14 sm:px-6 lg:grid-cols-[1.1fr_0.9fr] lg:py-20">
-          <div className="flex flex-col gap-6">
-            <p className="text-xs uppercase tracking-[0.28em] text-muted-foreground">
-              New · May 2025
-            </p>
-            <h1 className="font-display text-5xl leading-[0.95] tracking-tight sm:text-6xl lg:text-7xl">
-              The Ripper’s Son
-            </h1>
-            <p className="max-w-xl text-lg leading-relaxed text-muted-foreground">
-              {AUTHOR.tagline}. A perfect world. A lethal secret. Rob Gregory
-              lights the fuse — Book One of the Rho Agenda Singularity.
-            </p>
-            <BuyLinks book={featured} size="lg" />
-            <p className="text-sm text-muted-foreground">
-              New to the saga?{" "}
-              <Link to="/reading-order" className="text-foreground underline-offset-4 hover:underline">
-                Start here
-              </Link>
-              .
-            </p>
-          </div>
-          <Link
-            to="/books/$slug"
-            params={{ slug: featured.slug }}
-            className="mx-auto w-full max-w-xs outline-none focus-visible:ring-2 focus-visible:ring-ring"
-          >
-            <BookCover book={featured} sizes="320px" />
-          </Link>
-        </div>
-      </section>
-
       <section className="border-b border-border bg-black">
-        <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 py-14 sm:px-6 lg:grid-cols-[0.9fr_1.1fr]">
+        <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 py-14 sm:px-6 lg:grid-cols-[0.9fr_1.1fr] lg:py-20">
           <Link
             to="/books/$slug"
             params={{ slug: "unpunished" }}
@@ -79,9 +47,9 @@ function Home() {
             <p className="text-xs uppercase tracking-[0.28em] text-muted-foreground">
               Coming next · First look
             </p>
-            <h2 className="font-display text-5xl leading-[0.95] tracking-tight sm:text-6xl">
+            <h1 className="font-display text-5xl leading-[0.95] tracking-tight sm:text-6xl lg:text-7xl">
               Unpunished
-            </h2>
+            </h1>
             <p className="max-w-xl text-lg leading-relaxed text-muted-foreground">
               The storm has a name. Book Two of the Rho Agenda Singularity and
               the sequel to The Ripper’s Son. Richard is writing it now and aims
@@ -98,6 +66,38 @@ function Home() {
               </Button>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="border-b border-border">
+        <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 py-14 sm:px-6 lg:grid-cols-[1.1fr_0.9fr] lg:py-20">
+          <div className="flex flex-col gap-6">
+            <p className="text-xs uppercase tracking-[0.28em] text-muted-foreground">
+              Out now · May 2025
+            </p>
+            <h2 className="font-display text-5xl leading-[0.95] tracking-tight sm:text-6xl">
+              The Ripper’s Son
+            </h2>
+            <p className="max-w-xl text-lg leading-relaxed text-muted-foreground">
+              {AUTHOR.tagline}. A perfect world. A lethal secret. Rob Gregory
+              lights the fuse — Book One of the Rho Agenda Singularity.
+            </p>
+            <BuyLinks book={featured} size="lg" />
+            <p className="text-sm text-muted-foreground">
+              New to the saga?{" "}
+              <Link to="/reading-order" className="text-foreground underline-offset-4 hover:underline">
+                Start here
+              </Link>
+              .
+            </p>
+          </div>
+          <Link
+            to="/books/$slug"
+            params={{ slug: featured.slug }}
+            className="mx-auto w-full max-w-xs outline-none focus-visible:ring-2 focus-visible:ring-ring"
+          >
+            <BookCover book={featured} sizes="320px" />
+          </Link>
         </div>
       </section>
 
