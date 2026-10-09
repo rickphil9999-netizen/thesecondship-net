@@ -118,6 +118,17 @@ function ProducersPage() {
           alt=""
           className="absolute inset-0 -z-10 size-full object-cover saturate-[0.6]"
         />
+        <video
+          aria-hidden="true"
+          className="absolute inset-0 -z-10 size-full object-cover saturate-[0.6] motion-reduce:hidden"
+          src="/video/producers-bg-loop.mp4"
+          poster="/video/producers-bg-poster.jpg"
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="metadata"
+        />
         <div
           aria-hidden
           className="absolute inset-0 -z-10 bg-gradient-to-r from-background/95 via-background/70 to-background/35"
