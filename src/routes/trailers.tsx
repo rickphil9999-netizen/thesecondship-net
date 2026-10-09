@@ -38,7 +38,9 @@ function TrailersPage() {
                     className={t.vertical ? "aspect-[9/16] h-auto max-h-[640px] w-auto max-w-full" : "absolute inset-0 size-full"}
                     src={t.videoSrc}
                     poster={t.poster}
-                    controls
+                    autoPlay
+                    muted
+                    loop
                     playsInline
                     preload="metadata"
                     title={t.title}

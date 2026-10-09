@@ -62,7 +62,7 @@ function Home() {
                 </Link>
               </Button>
               <Button asChild variant="ghost">
-                <Link to="/trailers">Watch with sound</Link>
+                <Link to="/trailers">Watch the trailer</Link>
               </Button>
             </div>
           </div>
