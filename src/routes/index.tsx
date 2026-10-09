@@ -55,6 +55,52 @@ function Home() {
         </div>
       </section>
 
+      <section className="border-b border-border bg-black">
+        <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 py-14 sm:px-6 lg:grid-cols-[0.9fr_1.1fr]">
+          <Link
+            to="/books/$slug"
+            params={{ slug: "unpunished" }}
+            className="mx-auto w-full max-w-xs overflow-hidden rounded-lg outline-none focus-visible:ring-2 focus-visible:ring-ring"
+            aria-label="Unpunished, first look"
+          >
+            <video
+              className="aspect-[9/16] w-full object-cover"
+              src="/video/unpunished-first-look-loop.mp4"
+              poster="/video/unpunished-first-look-poster.jpg"
+              autoPlay
+              muted
+              loop
+              playsInline
+              preload="metadata"
+              aria-hidden="true"
+            />
+          </Link>
+          <div className="flex flex-col gap-5">
+            <p className="text-xs uppercase tracking-[0.28em] text-muted-foreground">
+              Coming next · First look
+            </p>
+            <h2 className="font-display text-5xl leading-[0.95] tracking-tight sm:text-6xl">
+              Unpunished
+            </h2>
+            <p className="max-w-xl text-lg leading-relaxed text-muted-foreground">
+              The storm has a name. Book Two of the Rho Agenda Singularity and
+              the sequel to The Ripper’s Son. Richard is writing it now and aims
+              to finish by the new year.
+            </p>
+            <div className="flex flex-wrap gap-3">
+              <Button asChild>
+                <Link to="/books/$slug" params={{ slug: "unpunished" }}>
+                  See what’s coming <ArrowRight />
+                </Link>
+              </Button>
+              <Button asChild variant="ghost">
+                <Link to="/trailers">Watch with sound</Link>
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="border-b border-border">
         <div className="mx-auto max-w-3xl px-4 py-16 sm:px-6">
           <p className="text-xs uppercase tracking-[0.28em] text-muted-foreground">
