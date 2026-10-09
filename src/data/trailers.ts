@@ -2,12 +2,25 @@ export type Trailer = {
   id: string;
   title: string;
   series: string;
-  youtubeId: string;
+  youtubeId?: string;
+  videoSrc?: string;
+  poster?: string;
+  vertical?: boolean;
   copy: string;
   relatedSlugs: string[];
 };
 
 export const TRAILERS: Trailer[] = [
+  {
+    id: "unpunished",
+    title: "Unpunished",
+    series: "Rho Agenda Singularity, Book Two (first look)",
+    videoSrc: "/video/unpunished-first-look.mp4",
+    poster: "/video/unpunished-first-look-poster.jpg",
+    vertical: true,
+    copy: "The storm has a name. A first look at the cover art for the sequel to The Ripper's Son, brought to life. Early art, still a work in progress. Richard is writing Unpunished now and aims to finish it by the new year.",
+    relatedSlugs: ["unpunished", "the-rippers-son"],
+  },
   {
     id: "once-dead",
     title: "Once Dead",

@@ -10,7 +10,7 @@ export const Route = createFileRoute("/trailers")({
       {
         name: "description",
         content:
-          "Watch trailers for Once Dead, The Rho Agenda, and The Endarian Prophecy.",
+          "Watch a first look at Unpunished and trailers for Once Dead, The Rho Agenda, and The Endarian Prophecy.",
       },
     ],
   }),
@@ -24,23 +24,37 @@ function TrailersPage() {
       </p>
       <h1 className="mt-3 font-display text-5xl">Trailers</h1>
       <p className="mt-4 max-w-2xl text-muted-foreground">
-        Three introductions: the assassin who would not stay dead, the crashed
-        starship, and the fantasy epic.
+        A first look at Unpunished, then three introductions: the assassin who
+        would not stay dead, the crashed starship, and the fantasy epic.
       </p>
 
       <div className="mt-12 flex flex-col gap-16">
         {TRAILERS.map((t) => (
           <article key={t.id} className="grid gap-6 lg:grid-cols-[1.4fr_1fr]">
             <div className="overflow-hidden rounded-lg border border-border bg-muted">
-              <div className="relative aspect-video">
-                <iframe
-                  className="absolute inset-0 size-full"
-                  src={`https://www.youtube-nocookie.com/embed/${t.youtubeId}`}
-                  title={t.title}
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                />
-              </div>
+              {t.videoSrc ? (
+                <div className={t.vertical ? "flex justify-center bg-black" : "relative aspect-video"}>
+                  <video
+                    className={t.vertical ? "aspect-[9/16] h-auto max-h-[640px] w-auto max-w-full" : "absolute inset-0 size-full"}
+                    src={t.videoSrc}
+                    poster={t.poster}
+                    controls
+                    playsInline
+                    preload="metadata"
+                    title={t.title}
+                  />
+                </div>
+              ) : (
+                <div className="relative aspect-video">
+                  <iframe
+                    className="absolute inset-0 size-full"
+                    src={`https://www.youtube-nocookie.com/embed/${t.youtubeId}`}
+                    title={t.title}
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  />
+                </div>
+              )}
             </div>
             <div className="flex flex-col gap-3">
               <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground">
