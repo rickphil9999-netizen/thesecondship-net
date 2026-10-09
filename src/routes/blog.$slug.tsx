@@ -84,6 +84,20 @@ function BlogEntryPage() {
           />
         ) : null}
 
+        {entry.slug === "the-storm-is-coming-a-first-look-at-unpunished" ? (
+          <video
+            className="mx-auto mt-8 aspect-[9/16] w-full max-w-sm rounded-xl border border-border object-cover"
+            src="/video/unpunished-first-look-loop.mp4"
+            poster="/video/unpunished-first-look-poster.jpg"
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="metadata"
+            aria-label="Unpunished first look"
+          />
+        ) : null}
+
         <div
           className="blog-content mt-8"
           // Sanitized with an allowlist when the archive was imported.
