@@ -9,7 +9,7 @@ export type NewsItem = {
 export const NEWS: NewsItem[] = [
   {
     title: "The Storm Is Coming — a first look at Unpunished",
-    date: "September 29, 2025",
+    date: "October 9, 2026",
     slug: "the-storm-is-coming-a-first-look-at-unpunished",
     dek: "A raw excerpt from Book Two of the Rho Agenda Singularity: Rob Gregory, a storm, and an AI-managed world that cannot admit what is happening.",
   },
