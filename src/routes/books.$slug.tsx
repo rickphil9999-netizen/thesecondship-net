@@ -1,6 +1,7 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { getBook, getSeries, neighbors } from "@/data/books";
+import { truncateAtWord } from "@/lib/utils";
 import { BookCover } from "@/components/book-cover";
 import { BuyLinks } from "@/components/buy-links";
 import { Button } from "@/components/ui/button";
@@ -19,7 +20,7 @@ export const Route = createFileRoute("/books/$slug")({
       },
       {
         name: "description",
-        content: loaderData?.book.blurb.slice(0, 160) ?? "",
+        content: truncateAtWord(loaderData?.book.blurb ?? ""),
       },
     ],
   }),
