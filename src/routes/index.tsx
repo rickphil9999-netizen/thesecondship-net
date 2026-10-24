@@ -53,7 +53,7 @@ function Home() {
             <p className="max-w-xl text-lg leading-relaxed text-muted-foreground">
               The storm has a name. Book Two of the Rho Agenda Singularity and
               the sequel to The Ripper’s Son. Richard is writing it now and aims
-              to finish by the new year.
+              to finish in Q1 2027.
             </p>
             <div className="flex flex-wrap gap-3">
               <Button asChild>
