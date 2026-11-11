@@ -10,6 +10,8 @@ export type BlogEntry = {
   commentCount: number;
   words: number;
   image: string | null;
+  /** Optional alt text for the catalog/featured image. Falls back to the post title. */
+  imageAlt?: string;
   /** Where the entry lived on rhoagenda.me before the move. */
   oldUrl: string;
 };
@@ -30,5 +32,7 @@ export type BlogContent = {
   /** Sanitized at import time. */
   html: string;
   featuredImage: string | null;
+  /** Optional alt text for featuredImage. Falls back to BlogEntry.imageAlt, then the post title. */
+  featuredImageAlt?: string;
   comments: BlogComment[];
 };

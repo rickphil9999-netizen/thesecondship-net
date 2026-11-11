@@ -79,7 +79,11 @@ function BlogEntryPage() {
         {content.featuredImage ? (
           <img
             src={content.featuredImage}
-            alt=""
+            alt={
+              content.featuredImageAlt?.trim() ||
+              entry.imageAlt?.trim() ||
+              entry.title
+            }
             className="mt-8 w-full rounded-xl border border-border object-cover"
           />
         ) : null}
@@ -103,12 +107,6 @@ function BlogEntryPage() {
           // Sanitized with an allowlist when the archive was imported.
           dangerouslySetInnerHTML={{ __html: content.html }}
         />
-
-        <p className="mt-12 border-t border-border pt-6 text-xs text-muted-foreground">
-          {isPage
-            ? "Originally a page on the Rho Agenda blog (rhoagenda.me)."
-            : `Originally published on the Rho Agenda blog (rhoagenda.me) on ${entry.dateLabel}.`}
-        </p>
 
         <ReadersSignup className="mt-12" />
 
