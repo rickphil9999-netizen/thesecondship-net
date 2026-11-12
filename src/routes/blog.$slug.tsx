@@ -3,6 +3,7 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 import { BlogComments } from "@/components/blog-comments";
 import { ReadersSignup } from "@/components/readers-signup";
 import { Button } from "@/components/ui/button";
+import { OppressiveGloomCredit } from "@/components/oppressive-gloom-credit";
 
 const SITE = "https://thesecondship.net";
 
@@ -89,17 +90,18 @@ function BlogEntryPage() {
         ) : null}
 
         {entry.slug === "the-storm-is-coming-a-first-look-at-unpunished" ? (
-          <video
-            className="mx-auto mt-8 aspect-[9/16] w-full max-w-sm rounded-xl border border-border object-cover"
-            src="/video/unpunished-first-look-loop.mp4"
-            poster="/video/unpunished-first-look-poster.jpg"
-            autoPlay
-            muted
-            loop
-            playsInline
-            preload="metadata"
-            aria-label="Unpunished first look"
-          />
+          <div className="mt-8">
+            <video
+              className="aspect-video w-full rounded-xl border border-border bg-black"
+              src="/video/unpunished-trailer-45.mp4"
+              poster="/video/unpunished-trailer-45-poster.jpg"
+              controls
+              playsInline
+              preload="metadata"
+              aria-label="Unpunished trailer"
+            />
+            <OppressiveGloomCredit />
+          </div>
         ) : null}
 
         <div
