@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { TRAILERS } from "@/data/trailers";
 import { getBook } from "@/data/books";
+import { OppressiveGloomCredit } from "@/components/oppressive-gloom-credit";
 
 export const Route = createFileRoute("/trailers")({
   component: TrailersPage,
@@ -31,32 +32,46 @@ function TrailersPage() {
       <div className="mt-12 flex flex-col gap-16">
         {TRAILERS.map((t) => (
           <article key={t.id} className="grid gap-6 lg:grid-cols-[1.4fr_1fr]">
-            <div className="overflow-hidden rounded-lg border border-border bg-muted">
-              {t.videoSrc ? (
-                <div className={t.vertical ? "flex justify-center bg-black" : "relative aspect-video"}>
-                  <video
-                    className={t.vertical ? "aspect-[9/16] h-auto max-h-[640px] w-auto max-w-full" : "absolute inset-0 size-full"}
-                    src={t.videoSrc}
-                    poster={t.poster}
-                    autoPlay
-                    muted
-                    loop
-                    playsInline
-                    preload="metadata"
-                    title={t.title}
-                  />
-                </div>
-              ) : (
-                <div className="relative aspect-video">
-                  <iframe
-                    className="absolute inset-0 size-full"
-                    src={`https://www.youtube-nocookie.com/embed/${t.youtubeId}`}
-                    title={t.title}
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  />
-                </div>
-              )}
+            <div>
+              <div className="overflow-hidden rounded-lg border border-border bg-muted">
+                {t.videoSrc ? (
+                  <div
+                    className={
+                      t.vertical
+                        ? "flex justify-center bg-black"
+                        : "relative aspect-video bg-black"
+                    }
+                  >
+                    <video
+                      className={
+                        t.vertical
+                          ? "aspect-[9/16] h-auto max-h-[640px] w-auto max-w-full"
+                          : "absolute inset-0 size-full"
+                      }
+                      src={t.videoSrc}
+                      poster={t.poster}
+                      controls={!t.vertical}
+                      autoPlay={!!t.vertical}
+                      muted={!!t.vertical}
+                      loop={!!t.vertical}
+                      playsInline
+                      preload="metadata"
+                      title={t.title}
+                    />
+                  </div>
+                ) : (
+                  <div className="relative aspect-video">
+                    <iframe
+                      className="absolute inset-0 size-full"
+                      src={`https://www.youtube-nocookie.com/embed/${t.youtubeId}`}
+                      title={t.title}
+                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    />
+                  </div>
+                )}
+              </div>
+              {t.id === "unpunished" ? <OppressiveGloomCredit /> : null}
             </div>
             <div className="flex flex-col gap-3">
               <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground">
