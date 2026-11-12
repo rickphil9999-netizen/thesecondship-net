@@ -26,9 +26,20 @@ export const Route = createFileRoute("/blog/")({
   }),
 });
 
+function latestBlogPost() {
+  if (BLOG_POSTS.length === 0) return undefined;
+  return BLOG_POSTS.reduce((newest, post) =>
+    post.date > newest.date ? post : newest,
+  );
+}
+
 function BlogPage() {
   const years = blogPostsByYear();
   const first = BLOG_POSTS[BLOG_POSTS.length - 1];
+  const latest = latestBlogPost();
+  const featuredNews = latest
+    ? NEWS.filter((item) => item.slug !== latest.slug)
+    : NEWS;
 
   return (
     <main id="main" className="mx-auto w-full max-w-6xl px-4 py-12 sm:px-6">
@@ -61,7 +72,41 @@ function BlogPage() {
           Featured
         </h2>
         <ol className="mt-4 flex flex-col gap-4">
-          {NEWS.map((item) => (
+          {latest ? (
+            <li>
+              <Link
+                to="/blog/$slug"
+                params={{ slug: latest.slug }}
+                className="block rounded-xl border border-border bg-card p-6 hover:bg-muted"
+              >
+                <div className="flex gap-5 sm:gap-6">
+                  {latest.image ? (
+                    <img
+                      src={latest.image}
+                      alt={latest.imageAlt?.trim() || latest.title}
+                      className="h-auto w-24 shrink-0 rounded-lg border border-border object-cover sm:w-32"
+                    />
+                  ) : null}
+                  <div className="min-w-0">
+                    <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground">
+                      <span className="font-medium text-foreground">
+                        Latest
+                      </span>
+                      <span aria-hidden="true"> · </span>
+                      <time dateTime={latest.date}>{latest.dateLabel}</time>
+                    </p>
+                    <h3 className="mt-2 font-display text-2xl">
+                      {latest.title}
+                    </h3>
+                    <p className="mt-2 max-w-2xl text-sm leading-relaxed text-muted-foreground">
+                      {latest.excerpt}
+                    </p>
+                  </div>
+                </div>
+              </Link>
+            </li>
+          ) : null}
+          {featuredNews.map((item) => (
             <li key={item.slug}>
               <Link
                 to="/blog/$slug"
