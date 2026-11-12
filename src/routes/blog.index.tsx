@@ -37,9 +37,11 @@ function BlogPage() {
   const years = blogPostsByYear();
   const first = BLOG_POSTS[BLOG_POSTS.length - 1];
   const latest = latestBlogPost();
-  const featuredNews = latest
-    ? NEWS.filter((item) => item.slug !== latest.slug)
-    : NEWS;
+  const featuredNews = NEWS.filter(
+    (item) =>
+      item.slug === "the-storm-is-coming-a-first-look-at-unpunished" &&
+      item.slug !== latest?.slug,
+  );
 
   return (
     <main id="main" className="mx-auto w-full max-w-6xl px-4 py-12 sm:px-6">
