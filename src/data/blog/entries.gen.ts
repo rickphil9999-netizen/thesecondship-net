@@ -3,6 +3,20 @@ import type { BlogEntry } from "./types";
 
 export const BLOG_ENTRIES: BlogEntry[] = [
  {
+  "slug": "once-dead-an-authors-note",
+  "type": "post",
+  "title": "Once Dead: An Author's Note on the Book That Opens the Rho Agenda",
+  "date": "2026-11-12T15:26:50",
+  "dateLabel": "November 12, 2026",
+  "year": 2026,
+  "excerpt": "An ex-CIA assassin dies in Calcutta and does not stay dead. My no-spoiler introduction to Once Dead, Book One of The Rho Agenda Inception.",
+  "commentCount": 0,
+  "words": 825,
+  "image": "/covers/once-dead.jpg",
+  "imageAlt": "Cover of Once Dead by Richard Phillips, Book One of The Rho Agenda Inception",
+  "oldUrl": ""
+ },
+ {
   "slug": "updated-website",
   "type": "post",
   "title": "Updated Website",
