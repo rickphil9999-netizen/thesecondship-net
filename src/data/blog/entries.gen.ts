@@ -3,6 +3,20 @@ import type { BlogEntry } from "./types";
 
 export const BLOG_ENTRIES: BlogEntry[] = [
  {
+  "slug": "dead-wrong-an-authors-note",
+  "type": "post",
+  "title": "Dead Wrong: An Author's Note on Book Two of The Rho Agenda Inception",
+  "date": "2026-11-15T15:20:00",
+  "dateLabel": "November 15, 2026",
+  "year": 2026,
+  "excerpt": "Gregory and Price are hunted, and the thing riding Jack's mind has a name. My no-spoiler introduction to Dead Wrong, Book Two of The Rho Agenda Inception.",
+  "commentCount": 0,
+  "words": 964,
+  "image": "/covers/dead-wrong.jpg",
+  "imageAlt": "Cover of Dead Wrong by Richard Phillips, Book Two of The Rho Agenda Inception",
+  "oldUrl": ""
+ },
+ {
   "slug": "once-dead-an-authors-note",
   "type": "post",
   "title": "Once Dead: An Author's Note on the Book That Opens the Rho Agenda",
