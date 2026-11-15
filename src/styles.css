@@ -151,6 +151,13 @@
     color: var(--color-muted-foreground);
     font-style: italic;
   }
+  /* Paragraphs inside a quoted chapter are not direct children of
+     .blog-content, so the > * + * rule above does not space them.
+     Tailwind preflight also zeroes p margins. Restore the same
+     1.25em gap used between top-level blog paragraphs. */
+  .blog-content blockquote > * + * {
+    margin-top: 1.25em;
+  }
   .blog-content hr {
     border-color: var(--color-border);
   }
