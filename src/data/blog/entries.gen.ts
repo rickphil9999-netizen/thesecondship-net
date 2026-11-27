@@ -3,6 +3,20 @@ import type { BlogEntry } from "./types";
 
 export const BLOG_ENTRIES: BlogEntry[] = [
  {
+  "slug": "the-second-ship-an-authors-note",
+  "type": "post",
+  "title": "The Second Ship: An Author's Note on Book One of The Rho Agenda",
+  "date": "2026-11-26T19:00:00",
+  "dateLabel": "November 26, 2026",
+  "year": 2026,
+  "excerpt": "In 1948 a ship fell on New Mexico. Then a second one waited to be found. My no-spoiler introduction to The Second Ship, where the Rho Agenda begins.",
+  "commentCount": 0,
+  "words": 527,
+  "image": "/covers/second-ship.jpg",
+  "imageAlt": "Cover of The Second Ship by Richard Phillips, Book One of The Rho Agenda",
+  "oldUrl": ""
+ },
+ {
   "slug": "dead-wrong-an-authors-note",
   "type": "post",
   "title": "Dead Wrong: An Author's Note on Book Two of The Rho Agenda Inception",
